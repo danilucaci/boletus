@@ -23,7 +23,11 @@
     "season": "Tardor",
     "note": "Taronja intens; sol créixer en grups units sobre fusta o arrels. Es pot confondre amb el rossinyol.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/bolet-d-olivera"
+    "source": "https://bolets.app/bolets/bolet-d-olivera",
+    "examples": [
+      "Exemple d’hàbitat: pot formar grups units sobre fusta o arrels.",
+      "Exemple de confusió: el rossinyol té plecs sota el barret, no làmines fines."
+    ]
   },
   {
     "id": "gyromitra-esculenta",
@@ -75,7 +79,11 @@
     "season": "Tardor",
     "note": "Petit embut de tons bruns, amb el peu groc viu i plecs poc marcats.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/camagroc"
+    "source": "https://bolets.app/bolets/camagroc",
+    "examples": [
+      "Exemple de peu: és groc viu i buit per dins.",
+      "Exemple de cara inferior: és grisenca, gairebé llisa o amb plecs molt discrets."
+    ]
   },
   {
     "id": "marasmius-oreades",
@@ -158,7 +166,11 @@
       "tylopilus-felleus",
       "rubroboletus-satanas"
     ],
-    "source": "https://bolets.app/bolets/cep"
+    "source": "https://bolets.app/bolets/cep",
+    "examples": [
+      "Exemple de cara inferior: hi ha porus en lloc de làmines.",
+      "Exemple de confusió: al mataparent els porus es tornen rosats i la retícula del peu és fosca."
+    ]
   },
   {
     "id": "boletus-reticulatus",
@@ -702,7 +714,11 @@
       "lactarius-torminosus",
       "lactarius-chrysorrheus"
     ],
-    "source": "https://bolets.app/bolets/pinetell"
+    "source": "https://bolets.app/bolets/pinetell",
+    "examples": [
+      "Exemple de tall: el làtex surt de color taronja o pastanaga; el del rovelló és vermell vinós.",
+      "Exemple de confusió: si el làtex és blanc, compara’l amb el pinetell bord i el rovelló de cabra."
+    ]
   },
   {
     "id": "lactarius-chrysorrheus",
@@ -715,7 +731,11 @@
     "season": "Estiu i tardor",
     "note": "Lactari de tons salmó amb làtex blanc que es torna groc sofre.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/pinetell-bord"
+    "source": "https://bolets.app/bolets/pinetell-bord",
+    "examples": [
+      "Exemple de tall: el làtex blanc es torna groc sofre.",
+      "Exemple d’hàbitat: s’associa sobretot amb roures i alzines, mentre que el pinetell creix amb pins."
+    ]
   },
   {
     "id": "amanita-pantherina",
@@ -770,7 +790,11 @@
       "hygrophoropsis-aurantiaca",
       "omphalotus-olearius"
     ],
-    "source": "https://bolets.app/bolets/rossinyol"
+    "source": "https://bolets.app/bolets/rossinyol",
+    "examples": [
+      "Exemple de cara inferior: presenta plecs, no làmines fines veritables.",
+      "Exemple de confusió: el bolet d’olivera pot sortir en grups units sobre fusta o arrels."
+    ]
   },
   {
     "id": "lactarius-sanguifluus",
@@ -787,7 +811,11 @@
       "lactarius-torminosus",
       "lactarius-chrysorrheus"
     ],
-    "source": "https://bolets.app/bolets/rovello"
+    "source": "https://bolets.app/bolets/rovello",
+    "examples": [
+      "Exemple de tall: el làtex és vermell vinós; el del pinetell és taronja.",
+      "Exemple de confusió: un barret de marge pelut i làtex blanc recorda el rovelló de cabra, no aquest rovelló."
+    ]
   },
   {
     "id": "lactarius-torminosus",
@@ -800,7 +828,11 @@
     "season": "Estiu i tardor",
     "note": "Lactari rosat amb la vora llanosa i làtex blanc, associat a bedolls.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/rovello-de-cabra"
+    "source": "https://bolets.app/bolets/rovello-de-cabra",
+    "examples": [
+      "Exemple de barret: el marge és densament pelut i el color tendeix al rosat.",
+      "Exemple de tall: el làtex és blanc; el rovelló segrega làtex vermell vinós."
+    ]
   },
   {
     "id": "tuber-melanosporum",

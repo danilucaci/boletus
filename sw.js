@@ -1,5 +1,5 @@
-const CACHE_NAME = 'boletus-field-guide-v0.1.1';
-const CORE = ['./', './index.html', './styles.css', './app.js', './package.json', './manifest.webmanifest', './assets/icon.svg', './assets/icon-192.png', './assets/icon-512.png', './data/species.json', './data/photos.json'];
+const CACHE_NAME = 'boletus-field-guide-v0.1.2';
+const CORE = ['./', './index.html', './styles.css', './app.js', './sw.js', './package.json', './manifest.webmanifest', './assets/icon.svg', './assets/icon-192.png', './assets/icon-512.png', './data/species.json', './data/photos.json'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
@@ -9,13 +9,16 @@ self.addEventListener('install', (event) => {
     const catalog = await response.json();
     const images = Object.values(catalog).flat().map((image) => `./${image.file}`);
     const urls = [...new Set([...CORE, ...images])];
-    let failed = 0;
-    for (let start = 0; start < urls.length; start += 8) {
-      const outcomes = await Promise.allSettled(urls.slice(start, start + 8).map((url) => cache.add(url)));
-      failed += outcomes.filter((outcome) => outcome.status === 'rejected').length;
+    try {
+      for (let start = 0; start < urls.length; start += 8) {
+        await Promise.all(urls.slice(start, start + 8).map((url) => cache.add(new Request(url, {cache:'reload'}))));
+      }
+      await cache.put('./offline-status.json', new Response(JSON.stringify({ready:true, cached:urls.length, expected:urls.length}), {headers:{'Content-Type':'application/json'}}));
+      await self.skipWaiting();
+    } catch (error) {
+      await caches.delete(CACHE_NAME);
+      throw error;
     }
-    await cache.put('./offline-status.json', new Response(JSON.stringify({ready:failed === 0, cached:urls.length - failed, expected:urls.length}), {headers:{'Content-Type':'application/json'}}));
-    await self.skipWaiting();
   })());
 });
 

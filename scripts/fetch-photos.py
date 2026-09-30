@@ -12,9 +12,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DEST = ROOT / "assets" / "species"
 SPECIES = [item["scientific"] for item in json.loads((ROOT / "data" / "catalog-raw.json").read_text())]
-PRIORITY = {"Lactarius deliciosus", "Lactarius sanguifluus", "Lactarius torminosus", "Lactarius chrysorrheus"}
+PRIORITY = {"Lactarius deliciosus", "Lactarius sanguifluus"}
+FEATURED = {"Lactarius torminosus", "Lactarius chrysorrheus", "Cantharellus cibarius", "Craterellus lutescens", "Boletus edulis", "Amanita phalloides"}
 FALLBACK = {"Collybia rivulosa": "Clitocybe rivulosa", "Boletus reticulatus": "Boletus aestivalis", "Lactifluus rugatus": "Lactarius rugatus"}
-BLOCK = ("drawing", "illustration", "il·lustració", "painting", "basket", "icon", "diagram", "stamp", "plate", "herbarium", "arion")
+BLOCK = ("drawing", "illustration", "il·lustració", "painting", "basket", "icon", "diagram", "stamp", "plate", "herbarium", "arion", "spore print", "probably", "versus", "bicycle trail", "var. crocatus")
 
 
 def plain(value):
@@ -39,7 +40,8 @@ def main():
     photos_path = ROOT / "data" / "photos.json"
     records = json.loads(photos_path.read_text()) if photos_path.exists() else {}
     for species in SPECIES:
-        if len(records.get(species, [])) >= (2 if species in PRIORITY else 1):
+        target = 4 if species in PRIORITY else 3 if species in FEATURED else 2
+        if len(records.get(species, [])) >= target:
             continue
         time.sleep(2)
         term = FALLBACK.get(species, species)
@@ -86,7 +88,7 @@ def main():
                 "license": plain(license_name), "licenseUrl": meta.get("LicenseUrl", {}).get("value", ""),
                 "source": info.get("descriptionurl", ""),
             })
-            if len(chosen) == (2 if species in PRIORITY else 1):
+            if len(chosen) >= target:
                 break
         records[species] = chosen
         print(species, len(chosen), *(photo["title"] for photo in chosen), sep=" | ")

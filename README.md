@@ -1,12 +1,12 @@
 # Boletus
 
-Guia de camp instal·lable al mòbil. Inclou un catàleg de 62 espècies de Catalunya amb classificació orientativa, notes d'identificació, fotos i possibles confusions. Funciona sense connexió després de la primera descàrrega i desa les troballes al navegador.
+Guia de camp instal·lable al mòbil. Inclou un catàleg de 62 espècies de Catalunya amb classificació orientativa, notes d'identificació, 132 fotos, exemples de trets i possibles confusions. Funciona sense connexió després de la primera descàrrega i desa les troballes al navegador.
 
 ## Publicació a Netlify
 
 1. A Netlify, tria **Add new project → Import an existing project** i connecta aquest repositori.
 2. Selecciona la branca `main`. El fitxer `netlify.toml` ja configura la publicació des de l'arrel; no cal cap ordre de compilació.
-3. Obre l'adreça HTTPS al mòbil amb connexió i espera que la secció **Sense connexió** indiqui **Guia descarregada**. Afegeix el web a la pantalla d'inici.
+3. Obre l'adreça HTTPS al mòbil amb connexió i espera que la secció **Sense connexió** indiqui **Guia descarregada**. Aquesta descàrrega inclou l'HTML, el JavaScript, els estils, les dades, les icones i totes les fotos. Afegeix el web a la pantalla d'inici.
 4. Prova el mode avió abans de sortir al bosc.
 
 No calen claus d'API, comptes ni serveis externs per a la guia, les fotos o el quadern. Els enllaços a fonts externes només funcionen amb connexió.
