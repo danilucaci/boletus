@@ -9,8 +9,11 @@ self.addEventListener('install', (event) => {
     const catalog = await response.json();
     const images = Object.values(catalog).flat().map((image) => `./${image.file}`);
     const urls = [...new Set([...CORE, ...images])];
-    const outcomes = await Promise.allSettled(urls.map((url) => cache.add(url)));
-    const failed = outcomes.filter((outcome) => outcome.status === 'rejected').length;
+    let failed = 0;
+    for (let start = 0; start < urls.length; start += 8) {
+      const outcomes = await Promise.allSettled(urls.slice(start, start + 8).map((url) => cache.add(url)));
+      failed += outcomes.filter((outcome) => outcome.status === 'rejected').length;
+    }
     await cache.put('./offline-status.json', new Response(JSON.stringify({ready:failed === 0, cached:urls.length - failed, expected:urls.length}), {headers:{'Content-Type':'application/json'}}));
     await self.skipWaiting();
   })());
