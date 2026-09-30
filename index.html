@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#f6f4ed">
+    <meta name="description" content="Guía de setas de Cataluña que funciona sin conexión. Consulta 62 especies y guarda tus hallazgos.">
+    <link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Boletus · guía de campo</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#guia" aria-label="Boletus, ir a la guía"><span class="brand-mark" aria-hidden="true">✳</span><span>boletus<span class="brand-dot">.</span></span></a>
+        <span class="header-label">GUÍA DE CAMPO · CATALUÑA</span>
+        <span id="connection" class="connection" aria-live="polite">Comprobando…</span>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section id="guide-view" class="view">
+        <div class="intro">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-line"></span> TU GUÍA DE BOLSILLO</div>
+            <h1>Sal al bosque.<br><em>Lleva la guía contigo.</em></h1>
+            <p>Fotos, rasgos y posibles confusiones de 62 setas de Cataluña. Todo el catálogo queda disponible sin cobertura.</p>
+            <div class="intro-actions">
+              <a class="button button-primary" href="#catalogo">Explorar especies <span aria-hidden="true">↗</span></a>
+              <button id="install-button" class="button button-secondary" hidden>Instalar app</button>
+            </div>
+          </div>
+          <button id="featured" class="featured" type="button" aria-label="Ver la ficha del rovelló">
+            <img id="featured-image" alt="Rovelló" loading="eager">
+            <span class="featured-shade"></span>
+            <span class="featured-content"><span class="featured-kicker">EN EL PUNTO DE MIRA</span><strong>Rovelló</strong><small>Lactarius sanguifluus <span aria-hidden="true">↗</span></small></span>
+          </button>
+        </div>
+
+        <section id="catalogo" class="catalog-section" aria-labelledby="catalog-heading">
+          <div class="section-heading"><div><div class="eyebrow">EL ATLAS</div><h2 id="catalog-heading">Especies del bosque<span class="heading-dot">.</span></h2></div><span id="result-count" class="result-count">62 especies</span></div>
+          <div class="controls">
+            <label class="search-field"><span aria-hidden="true">⌕</span><span class="sr-only">Buscar por nombre común o científico</span><input id="search" type="search" placeholder="Busca rovelló, cep, Lactarius…" autocomplete="off"></label>
+            <div id="filters" class="filters" aria-label="Filtrar por comestibilidad">
+              <button class="filter active" data-filter="all" aria-pressed="true">Todas</button>
+              <button class="filter" data-filter="edible" aria-pressed="false">Comestibles</button>
+              <button class="filter" data-filter="toxic" aria-pressed="false">Tóxicas</button>
+              <button class="filter" data-filter="avoid" aria-pressed="false">No recomendadas</button>
+            </div>
+          </div>
+          <div id="species-grid" class="species-grid"></div>
+          <p id="empty-search" class="empty-state" hidden>No hay especies que coincidan. Prueba otro nombre o filtro.</p>
+        </section>
+      </section>
+
+      <section id="findings-view" class="view" hidden aria-labelledby="findings-heading">
+        <div class="section-heading findings-heading"><div><div class="eyebrow">TU CUADERNO</div><h1 id="findings-heading">Mis hallazgos<span class="heading-dot">.</span></h1><p>Guarda fotos y notas en este móvil. Puedes revisarlas cuando vuelvas a tener conexión.</p></div><button id="new-finding" class="button button-primary">+ Añadir hallazgo</button></div>
+        <div class="field-tip"><span aria-hidden="true">◉</span><span>Haz fotos del sombrero, de la parte inferior y del pie completo. Una foto aislada puede ocultar rasgos importantes.</span></div>
+        <div id="findings-list" class="findings-list"></div>
+        <div class="backup-actions"><button id="export-button" class="text-button">↓ Exportar copia de mis hallazgos</button><button id="import-button" class="text-button">↑ Importar copia</button><input id="import-file" type="file" accept="application/json" hidden></div>
+      </section>
+
+      <section id="about-view" class="view about-view" hidden aria-labelledby="about-heading">
+        <div class="eyebrow">ANTES DE SALIR</div><h1 id="about-heading">Lista para ir sin cobertura<span class="heading-dot">.</span></h1>
+        <p>Abre esta web una vez con conexión y espera a que aparezca «Guía descargada». Después puedes añadirla a la pantalla de inicio.</p>
+        <div class="about-cards"><article><span class="step-number">01</span><h2>Fichas y fotos</h2><p>Las 62 especies y sus imágenes se guardan en el dispositivo. Puedes buscar y comparar sin señal.</p></article><article><span class="step-number">02</span><h2>Fotos tuyas</h2><p>Los hallazgos se guardan en este navegador. Exporta una copia periódicamente; borrar los datos del sitio también los borra.</p></article><article><span class="step-number">03</span><h2>Revisión en casa</h2><p>Con conexión, abre las fuentes de la ficha y compara tus fotos. La categoría describe una especie, no identifica tu ejemplar.</p></article></div>
+        <p id="offline-status" class="offline-status" aria-live="polite">Preparando descarga offline…</p>
+        <div class="source-note"><h2>Fuentes y créditos</h2><p>Los nombres, categorías y hábitats del catálogo se contrastaron con <a href="https://bolets.app/bolets" target="_blank" rel="noopener noreferrer">Bolets Atles</a>. Las notas están redactadas para esta guía y se apoyan también en la <a href="https://canalaliments.gencat.cat/ca/coneix-aliments/bolets-tofona/bolets/" target="_blank" rel="noopener noreferrer">Generalitat de Catalunya</a> y las <a href="https://acsa.gencat.cat/ca/detall/article/Bolets" target="_blank" rel="noopener noreferrer">recomendaciones de la ACSA</a>. Las fotos provienen de Wikimedia Commons; cada ficha enlaza al autor y a su licencia.</p><p class="small-print">La clasificación es orientativa. Si no puedes identificar un ejemplar con seguridad, no lo consumas.</p></div>
+      </section>
+    </main>
+
+    <nav class="bottom-nav" aria-label="Navegación principal"><a href="#guia" data-nav="guia" class="active"><span aria-hidden="true">✳</span> Guía</a><a href="#hallazgos" data-nav="hallazgos"><span aria-hidden="true">◎</span> Hallazgos</a><a href="#offline" data-nav="offline"><span aria-hidden="true">↓</span> Offline</a></nav>
+
+    <dialog id="species-dialog" class="species-dialog"><div id="species-detail"></div></dialog>
+    <dialog id="finding-dialog" class="finding-dialog"><form id="finding-form"><div class="dialog-top"><div><span class="eyebrow">CUADERNO DE CAMPO</span><h2 id="finding-dialog-title">Nuevo hallazgo</h2></div><button class="icon-button close-dialog" type="button" aria-label="Cerrar">×</button></div><label class="form-label">Fotos del hallazgo <span>hasta 5</span><input id="finding-photos" type="file" accept="image/*" capture="environment" multiple></label><div id="photo-preview" class="photo-preview"></div><label class="form-label">Especie que quieres comparar<select id="finding-species"><option value="">Sin identificar</option></select></label><div id="candidate-summary" class="candidate-summary" hidden></div><label class="form-label">Notas<textarea id="finding-notes" rows="3" placeholder="¿Dónde crecía? ¿Cómo eran el sombrero, la parte inferior y el pie?"></textarea></label><button class="button button-primary form-submit" type="submit">Guardar en este móvil</button></form></dialog>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,654 @@
+{
+  "Macrolepiota procera": [
+    {
+      "file": "assets/species/macrolepiota-procera-1.jpg",
+      "title": "Parasol oder Riesenschirmpilz, Macrolepiota procera 3.JPG",
+      "author": "Feel free to use my photos, but please mention me as the author and if you want send me a  message. or (rufre@lenz-nenning.at)",
+      "license": "CC BY-SA 3.0 at",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Parasol_oder_Riesenschirmpilz,_Macrolepiota_procera_3.JPG"
+    }
+  ],
+  "Omphalotus olearius": [
+    {
+      "file": "assets/species/omphalotus-olearius-1.jpg",
+      "title": "Omphalotus olearius.JPG",
+      "author": "Antonio Abbatiello",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Omphalotus_olearius.JPG"
+    }
+  ],
+  "Gyromitra esculenta": [
+    {
+      "file": "assets/species/gyromitra-esculenta-1.jpg",
+      "title": "Gyromitra esculenta01.jpg",
+      "author": "Kruczy89",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Gyromitra_esculenta01.jpg"
+    }
+  ],
+  "Coprinus comatus": [
+    {
+      "file": "assets/species/coprinus-comatus-1.jpg",
+      "title": "Coprinus comatus.jpg",
+      "author": "A. Uciechowska",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Coprinus_comatus.jpg"
+    }
+  ],
+  "Chroogomphus rutilus": [
+    {
+      "file": "assets/species/chroogomphus-rutilus-1.jpg",
+      "title": "Chroogomphus rutilus Bryonia orig.jpg",
+      "author": "Alberto Vasquez",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Chroogomphus_rutilus_Bryonia_orig.jpg"
+    }
+  ],
+  "Craterellus lutescens": [
+    {
+      "file": "assets/species/craterellus-lutescens-1.jpg",
+      "title": "2007-11-10 Craterellus lutescens.jpg",
+      "author": "Andreas Kunze",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2007-11-10_Craterellus_lutescens.jpg"
+    }
+  ],
+  "Marasmius oreades": [
+    {
+      "file": "assets/species/marasmius-oreades-1.jpg",
+      "title": "Marasmius oreades garden 050829B.JPG",
+      "author": "Strobilomyces",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Marasmius_oreades_garden_050829B.JPG"
+    }
+  ],
+  "Agaricus campestris": [
+    {
+      "file": "assets/species/agaricus-campestris-1.jpg",
+      "title": "Agaricus campestris.jpg",
+      "author": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Agaricus_campestris.jpg"
+    }
+  ],
+  "Collybia rivulosa": [
+    {
+      "file": "assets/species/collybia-rivulosa-1.jpg",
+      "title": "Clitocybe rivulosa 20081116w.JPG",
+      "author": "Strobilomyces",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Clitocybe_rivulosa_20081116w.JPG"
+    }
+  ],
+  "Hygrophorus russula": [
+    {
+      "file": "assets/species/hygrophorus-russula-1.jpg",
+      "title": "2011-10-09 Hygrophorus russula (Schaeff.) Kauffman 175022.jpg",
+      "author": "This image was created by user Matt Sherman (Shermanii) at Mushroom Observer, a source for mycological images.You can contact this user here.",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2011-10-09_Hygrophorus_russula_(Schaeff.)_Kauffman_175022.jpg"
+    }
+  ],
+  "Entoloma sinuatum": [
+    {
+      "file": "assets/species/entoloma-sinuatum-1.jpg",
+      "title": "Entoloma sinuatum 54291818.jpg",
+      "author": "Eugene Popov",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Entoloma_sinuatum_54291818.jpg"
+    }
+  ],
+  "Boletus edulis": [
+    {
+      "file": "assets/species/boletus-edulis-1.jpg",
+      "title": "(Gemeine Steinpilz) Boletus edulis.jpg",
+      "author": "Holger Krisp",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:(Gemeine_Steinpilz)_Boletus_edulis.jpg"
+    }
+  ],
+  "Boletus reticulatus": [
+    {
+      "file": "assets/species/boletus-reticulatus-1.jpg",
+      "title": "2006-10-07 Boletus aestivalis cropped.jpg",
+      "author": "BoletusAestivalis.JPG: Archenzo\nderivative work: Ak ccm (talk)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:2006-10-07_Boletus_aestivalis_cropped.jpg"
+    }
+  ],
+  "Boletus aereus": [
+    {
+      "file": "assets/species/boletus-aereus-1.jpg",
+      "title": "Boletus aereusBG crop.jpg",
+      "author": "Boletus aereusBG.JPG: Paffka\nderivative work: Xth-Floor",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Boletus_aereusBG_crop.jpg"
+    }
+  ],
+  "Boletus pinophilus": [
+    {
+      "file": "assets/species/boletus-pinophilus-1.jpg",
+      "title": "Boletus pinophilus 14.jpg",
+      "author": "Jukka Vauras",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Boletus_pinophilus_14.jpg"
+    }
+  ],
+  "Leccinellum lepidum": [
+    {
+      "file": "assets/species/leccinellum-lepidum-1.jpg",
+      "title": "Leccinellum lepidum (H. Bouchet ex Essette) Bresinsky & Manfr. Binder 594275 2016-01-23.jpg",
+      "author": "This image was created by user zaca at Mushroom Observer, a source for mycological images.You can contact this user here.",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Leccinellum_lepidum_(H._Bouchet_ex_Essette)_Bresinsky_%26_Manfr._Binder_594275_2016-01-23.jpg"
+    }
+  ],
+  "Amanita verna": [
+    {
+      "file": "assets/species/amanita-verna-1.jpg",
+      "title": "Amanita verna 3.jpg",
+      "author": "Sinisa Radic",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Amanita_verna_3.jpg"
+    }
+  ],
+  "Cortinarius orellanus": [
+    {
+      "file": "assets/species/cortinarius-orellanus-1.jpg",
+      "title": "2013-10-16 Cortinarius orellanus 1a.jpg",
+      "author": "Andreas Kunze",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2013-10-16_Cortinarius_orellanus_1a.jpg"
+    }
+  ],
+  "Cortinarius rubellus": [
+    {
+      "file": "assets/species/cortinarius-rubellus-1.jpg",
+      "title": "Cortinarius rubellus 01.jpg",
+      "author": "Eric Steinert",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Cortinarius_rubellus_01.jpg"
+    }
+  ],
+  "Craterellus tubaeformis": [
+    {
+      "file": "assets/species/craterellus-tubaeformis-1.jpg",
+      "title": "Craterellus tubaeformis LC0374.jpg",
+      "author": "Jörg Hempel",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Craterellus_tubaeformis_LC0374.jpg"
+    }
+  ],
+  "Hygrophoropsis aurantiaca": [
+    {
+      "file": "assets/species/hygrophoropsis-aurantiaca-1.jpg",
+      "title": "Falscher Pfifferling (Hygrophoropsis aurantiaca) nahe der Silberquelle an der Straße vom Silberhaus nach Nagel.jpg",
+      "author": "Stephan van Helden",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Falscher_Pfifferling_(Hygrophoropsis_aurantiaca)_nahe_der_Silberquelle_an_der_Stra%C3%9Fe_vom_Silberhaus_nach_Nagel.jpg"
+    }
+  ],
+  "Amanita phalloides": [
+    {
+      "file": "assets/species/amanita-phalloides-1.jpg",
+      "title": "Amanita phalloides 1.JPG",
+      "author": "Archenzo",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Amanita_phalloides_1.JPG"
+    }
+  ],
+  "Amanita virosa": [
+    {
+      "file": "assets/species/amanita-virosa-1.jpg",
+      "title": "Amanita virosa UL 01.jpg",
+      "author": "Cephas",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Amanita_virosa_UL_01.jpg"
+    }
+  ],
+  "Tricholoma terreum": [
+    {
+      "file": "assets/species/tricholoma-terreum-1.jpg",
+      "title": "Tricholoma terreum 20061105wa.jpg",
+      "author": "User:Strobilomyces",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Tricholoma_terreum_20061105wa.jpg"
+    }
+  ],
+  "Tricholoma portentosum": [
+    {
+      "file": "assets/species/tricholoma-portentosum-1.jpg",
+      "title": "Tricholoma portentosum G5 (1).jpg",
+      "author": "Jerzy Opioła",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Tricholoma_portentosum_G5_(1).jpg"
+    }
+  ],
+  "Tricholoma pardinum": [
+    {
+      "file": "assets/species/tricholoma-pardinum-1.jpg",
+      "title": "2008-11-26 Tricholoma pardinum Quél 30173.jpg",
+      "author": "This image was created by user Ryane Snow (snowman) at Mushroom Observer, a source for mycological images.You can contact this user here.",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2008-11-26_Tricholoma_pardinum_Qu%C3%A9l_30173.jpg"
+    }
+  ],
+  "Galerina marginata": [
+    {
+      "file": "assets/species/galerina-marginata-1.jpg",
+      "title": "Galerina marginata.jpg",
+      "author": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Galerina_marginata.jpg"
+    }
+  ],
+  "Pleurotus ostreatus": [
+    {
+      "file": "assets/species/pleurotus-ostreatus-1.jpg",
+      "title": "Pleurotus ostreatus JPG7.jpg",
+      "author": "voir ci-dessous / see below",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pleurotus_ostreatus_JPG7.jpg"
+    }
+  ],
+  "Pleurotus eryngii": [
+    {
+      "file": "assets/species/pleurotus-eryngii-1.jpg",
+      "title": "Pleurotus eryngii (DC.) Gillet 208868 2011-11-11.jpg",
+      "author": "This image was created by user Gerhard Koller (Gerhard) at Mushroom Observer, a source for mycological images.You can contact this user here.",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pleurotus_eryngii_(DC.)_Gillet_208868_2011-11-11.jpg"
+    }
+  ],
+  "Inosperma erubescens": [
+    {
+      "file": "assets/species/inosperma-erubescens-1.jpg",
+      "title": "Inosperma erubescens.jpg",
+      "author": "The Brook",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Inosperma_erubescens.jpg"
+    }
+  ],
+  "Hygrophorus latitabundus": [
+    {
+      "file": "assets/species/hygrophorus-latitabundus-1.jpg",
+      "title": "Hygrophorus latitabundus1.JPG",
+      "author": "Paffka",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Hygrophorus_latitabundus1.JPG"
+    }
+  ],
+  "Hygrophorus eburneus": [
+    {
+      "file": "assets/species/hygrophorus-eburneus-1.jpg",
+      "title": "Hygrophorus eburneus-pastorino.JPG",
+      "author": "This image was created by user Ron Pastorino at Mushroom Observer, a source for mycological images.You can contact this user here.",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Hygrophorus_eburneus-pastorino.JPG"
+    }
+  ],
+  "Hydnum repandum": [
+    {
+      "file": "assets/species/hydnum-repandum-1.jpg",
+      "title": "Semmel-Stoppelpilz Semmelgelber Stacheling Hydnum repandum.JPG",
+      "author": "Holger Krisp",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Semmel-Stoppelpilz_Semmelgelber_Stacheling_Hydnum_repandum.JPG"
+    }
+  ],
+  "Lactifluus rugatus": [
+    {
+      "file": "assets/species/lactifluus-rugatus-1.jpg",
+      "title": "Lactarius rugatus (15584649101).jpg",
+      "author": "Jorge Franganillo from Barcelona, Spain",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lactarius_rugatus_(15584649101).jpg"
+    }
+  ],
+  "Russula cyanoxantha": [
+    {
+      "file": "assets/species/russula-cyanoxantha-1.jpg",
+      "title": "Russula cyanoxantha (44290996435).jpg",
+      "author": "Björn S...",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Russula_cyanoxantha_(44290996435).jpg"
+    }
+  ],
+  "Russula virescens": [
+    {
+      "file": "assets/species/russula-virescens-1.jpg",
+      "title": "Russula virescens3.JPG",
+      "author": "Paffka",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Russula_virescens3.JPG"
+    }
+  ],
+  "Hygrophorus marzuolus": [
+    {
+      "file": "assets/species/hygrophorus-marzuolus-1.jpg",
+      "title": "HYGROPHORUS MARZUOLUS (F. Fr.)Bresadola (5731129003).jpg",
+      "author": "GLJIVARSKO DRUSTVO NIS from Serbia",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:HYGROPHORUS_MARZUOLUS_(F._Fr.)Bresadola_(5731129003).jpg"
+    }
+  ],
+  "Rubroboletus satanas": [
+    {
+      "file": "assets/species/rubroboletus-satanas-1.jpg",
+      "title": "Rubroboletus satanas 17.jpg",
+      "author": "brindleshanks",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Rubroboletus_satanas_17.jpg"
+    }
+  ],
+  "Tylopilus felleus": [
+    {
+      "file": "assets/species/tylopilus-felleus-1.jpg",
+      "title": "Tylopilus felleus (36878337253) (2).jpg",
+      "author": "Björn S...",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Tylopilus_felleus_(36878337253)_(2).jpg"
+    }
+  ],
+  "Calocybe gambosa": [
+    {
+      "file": "assets/species/calocybe-gambosa-1.jpg",
+      "title": "Calocybe gambosa 080420wa.jpg",
+      "author": "User:Strobilomyces",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Calocybe_gambosa_080420wa.jpg"
+    }
+  ],
+  "Suillus luteus": [
+    {
+      "file": "assets/species/suillus-luteus-1.jpg",
+      "title": "Suillus luteus 1.jpg",
+      "author": "Dmitry Brant",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Suillus_luteus_1.jpg"
+    }
+  ],
+  "Suillus granulatus": [
+    {
+      "file": "assets/species/suillus-granulatus-1.jpg",
+      "title": "Körnchen-Röhrling Suillus granulatus 1.jpg",
+      "author": "Holger Krisp",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:K%C3%B6rnchen-R%C3%B6hrling_Suillus_granulatus_1.jpg"
+    }
+  ],
+  "Morchella esculenta": [
+    {
+      "file": "assets/species/morchella-esculenta-1.jpg",
+      "title": "Morchella esculenta 300405.jpg",
+      "author": "Bernd Haynold",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Morchella_esculenta_300405.jpg"
+    }
+  ],
+  "Amanita caesarea": [
+    {
+      "file": "assets/species/amanita-caesarea-1.jpg",
+      "title": "Amanita caesarea.JPG",
+      "author": "Archenzo",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Amanita_caesarea.JPG"
+    }
+  ],
+  "Lepiota brunneoincarnata": [
+    {
+      "file": "assets/species/lepiota-brunneoincarnata-1.jpg",
+      "title": "Lepiota brunneoincarnata 060823w.jpg",
+      "author": "User:Strobilomyces",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Lepiota_brunneoincarnata_060823w.jpg"
+    }
+  ],
+  "Paxillus involutus": [
+    {
+      "file": "assets/species/paxillus-involutus-1.jpg",
+      "title": "Navadne podvihanke (Paxillus involutus).jpg",
+      "author": "Petar Milošević",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Navadne_podvihanke_(Paxillus_involutus).jpg"
+    }
+  ],
+  "Lycoperdon utriforme": [
+    {
+      "file": "assets/species/lycoperdon-utriforme-1.jpg",
+      "title": "Lycoperdon utriforme.jpg",
+      "author": "JovanaKoturov",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lycoperdon_utriforme.jpg"
+    }
+  ],
+  "Lycoperdon perlatum": [
+    {
+      "file": "assets/species/lycoperdon-perlatum-1.jpg",
+      "title": "Single lycoperdon perlatum.jpg",
+      "author": "Daniel Ullrich, Threedots",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Single_lycoperdon_perlatum.jpg"
+    }
+  ],
+  "Ramaria formosa": [
+    {
+      "file": "assets/species/ramaria-formosa-1.jpg",
+      "title": "Ramaria formosa - Dreifarbige Koralle.jpg",
+      "author": "Ra'ike (see also: de:Benutzer:Ra'ike)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ramaria_formosa_-_Dreifarbige_Koralle.jpg"
+    }
+  ],
+  "Ramaria aurea": [
+    {
+      "file": "assets/species/ramaria-aurea-1.jpg",
+      "title": "2012-09-03 Ramaria aurea crop.jpg",
+      "author": "Ramaria_aurea1.JPG: böhringer friedrich\nderivative work: Ak ccm",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:2012-09-03_Ramaria_aurea_crop.jpg"
+    }
+  ],
+  "Lepista nuda": [
+    {
+      "file": "assets/species/lepista-nuda-1.jpg",
+      "title": "Lepista nuda.jpg",
+      "author": "Archenzo, Italy",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Lepista_nuda.jpg"
+    }
+  ],
+  "Lactarius deliciosus": [
+    {
+      "file": "assets/species/lactarius-deliciosus-1.jpg",
+      "title": "Lactarius deliciosus.jpg",
+      "author": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Lactarius_deliciosus.jpg"
+    },
+    {
+      "file": "assets/species/lactarius-deliciosus-2.jpg",
+      "title": "Lactarius deliciosus 2010 G1.jpg",
+      "author": "George Chernilevsky",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Lactarius_deliciosus_2010_G1.jpg"
+    }
+  ],
+  "Lactarius chrysorrheus": [
+    {
+      "file": "assets/species/lactarius-chrysorrheus-1.jpg",
+      "title": "2004-09-30 Lactarius chrysorrheus 14203.jpg",
+      "author": "This image was created by user Irene Andersson (irenea) at Mushroom Observer, a source for mycological images.You can contact this user here.",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2004-09-30_Lactarius_chrysorrheus_14203.jpg"
+    },
+    {
+      "file": "assets/species/lactarius-chrysorrheus-2.jpg",
+      "title": "Lactarius chrysorrheus 1139526.jpg",
+      "author": "This image was created by user Richard Daniel (RichardDaniel) at Mushroom Observer, a source for mycological images.You can contact this user here.",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lactarius_chrysorrheus_1139526.jpg"
+    }
+  ],
+  "Amanita pantherina": [
+    {
+      "file": "assets/species/amanita-pantherina-1.jpg",
+      "title": "Amanita pantherina 2013 G1.jpg",
+      "author": "George Chernilevsky",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Amanita_pantherina_2013_G1.jpg"
+    }
+  ],
+  "Cyclocybe cylindracea": [
+    {
+      "file": "assets/species/cyclocybe-cylindracea-1.jpg",
+      "title": "Cyclocybe cylindracea 342295878.jpg",
+      "author": "Matej Frančeškin",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cyclocybe_cylindracea_342295878.jpg"
+    }
+  ],
+  "Amanita muscaria": [
+    {
+      "file": "assets/species/amanita-muscaria-1.jpg",
+      "title": "Amanita muscaria 3 vliegenzwammen op rij.jpg",
+      "author": "Onderwijsgek",
+      "license": "CC BY-SA 3.0 nl",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Amanita_muscaria_3_vliegenzwammen_op_rij.jpg"
+    }
+  ],
+  "Cantharellus cibarius": [
+    {
+      "file": "assets/species/cantharellus-cibarius-1.jpg",
+      "title": "Chanterelle Cantharellus cibarius.jpg",
+      "author": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Chanterelle_Cantharellus_cibarius.jpg"
+    }
+  ],
+  "Lactarius sanguifluus": [
+    {
+      "file": "assets/species/lactarius-sanguifluus-1.jpg",
+      "title": "Lactarius sanguifluus 64507.jpg",
+      "author": "This image was created by user Irene Andersson (irenea) at Mushroom Observer, a source for mycological images.You can contact this user here.",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lactarius_sanguifluus_64507.jpg"
+    },
+    {
+      "file": "assets/species/lactarius-sanguifluus-2.jpg",
+      "title": "Lactarius sanguifluus.jpg",
+      "author": "kbosske",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lactarius_sanguifluus.jpg"
+    }
+  ],
+  "Lactarius torminosus": [
+    {
+      "file": "assets/species/lactarius-torminosus-1.jpg",
+      "title": "Lactarius torminosus 041031w.jpg",
+      "author": "Strobilomyces",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lactarius_torminosus_041031w.jpg"
+    },
+    {
+      "file": "assets/species/lactarius-torminosus-2.jpg",
+      "title": "Lactarius torminosus edge.jpg",
+      "author": "Egilus",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lactarius_torminosus_edge.jpg"
+    }
+  ],
+  "Tuber melanosporum": [
+    {
+      "file": "assets/species/tuber-melanosporum-1.jpg",
+      "title": "Tuber melanosporum - trufa negra, Ágreda, España.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Tuber_melanosporum_-_trufa_negra,_%C3%81greda,_Espa%C3%B1a.jpg"
+    }
+  ],
+  "Craterellus cornucopioides": [
+    {
+      "file": "assets/species/craterellus-cornucopioides-1.jpg",
+      "title": "Craterellus cornucopioides JPG1.jpg",
+      "author": "Jean-Pol GRANDMONT",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Craterellus_cornucopioides_JPG1.jpg"
+    }
+  ],
+  "Calvatia gigantea": [
+    {
+      "file": "assets/species/calvatia-gigantea-1.jpg",
+      "title": "Calvatia gigantea 2.jpg",
+      "author": "Hualp91",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Calvatia_gigantea_2.jpg"
+    }
+  ]
+}

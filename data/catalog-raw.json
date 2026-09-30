@@ -1,0 +1,560 @@
+[
+  {
+    "name": "Apagallums",
+    "scientific": "Macrolepiota procera",
+    "category": "Molt bo",
+    "facts": "Hàbitat Clarianes Altitud 0 – 1900 m",
+    "source": "https://bolets.app/bolets/apagallums",
+    "spanishName": "parasol",
+    "season": "Tardor"
+  },
+  {
+    "name": "Bolet d’olivera",
+    "scientific": "Omphalotus olearius",
+    "category": "Tòxic",
+    "facts": "Hàbitat Alzinars, suredes i boscos mediterranis Altitud 0 – 900 m",
+    "source": "https://bolets.app/bolets/bolet-d-olivera",
+    "spanishName": "seta de olivo",
+    "season": "Tardor"
+  },
+  {
+    "name": "Bolet de greix",
+    "scientific": "Gyromitra esculenta",
+    "category": "Molt tòxic",
+    "facts": "Hàbitat Boscos de coníferes Altitud 300 – 2000 m",
+    "source": "https://bolets.app/bolets/bolet-de-greix",
+    "spanishName": "falsa colmenilla",
+    "season": "Primavera"
+  },
+  {
+    "name": "Bolet de tinta",
+    "scientific": "Coprinus comatus",
+    "category": "Molt bo",
+    "facts": "Hàbitat Prats Altitud 0 – 2000 m",
+    "source": "https://bolets.app/bolets/bolet-de-tinta",
+    "spanishName": "barbuda",
+    "season": "Tardor"
+  },
+  {
+    "name": "Cama de perdiu",
+    "scientific": "Chroogomphus rutilus",
+    "category": "Acceptable",
+    "facts": "Hàbitat Pinedes Altitud 0 – 1800 m",
+    "source": "https://bolets.app/bolets/cama-de-perdiu",
+    "spanishName": "pata de perdiz",
+    "season": "Tardor"
+  },
+  {
+    "name": "Camagroc",
+    "scientific": "Craterellus lutescens",
+    "category": "Molt bo",
+    "facts": "Hàbitat Pinedes humides Altitud 400 – 1700 m",
+    "source": "https://bolets.app/bolets/camagroc",
+    "spanishName": "rebozuelo anaranjado",
+    "season": "Tardor"
+  },
+  {
+    "name": "Camasec",
+    "scientific": "Marasmius oreades",
+    "category": "Excel·lent",
+    "facts": "Hàbitat Prats Altitud 0 – 2000 m",
+    "source": "https://bolets.app/bolets/camasec",
+    "spanishName": "senderuela",
+    "season": "Primavera i tardor"
+  },
+  {
+    "name": "Camperol",
+    "scientific": "Agaricus campestris",
+    "category": "Molt bo",
+    "facts": "Hàbitat Prats Altitud 0 – 2000 m",
+    "source": "https://bolets.app/bolets/camperol",
+    "spanishName": "champiñón silvestre",
+    "season": "Primavera i tardor"
+  },
+  {
+    "name": "Candeleta de vorada",
+    "scientific": "Collybia rivulosa",
+    "category": "Molt tòxic",
+    "facts": "Hàbitat Prats Altitud 0 – 1900 m",
+    "source": "https://bolets.app/bolets/candeleta-de-vorada",
+    "spanishName": "clitocibe de las cunetas",
+    "season": "Tardor"
+  },
+  {
+    "name": "Carlet",
+    "scientific": "Hygrophorus russula",
+    "category": "Molt bo",
+    "facts": "Hàbitat Alzinars Altitud 50 – 1400 m",
+    "source": "https://bolets.app/bolets/carlet",
+    "spanishName": "higróforo escarlata",
+    "season": "Tardor"
+  },
+  {
+    "name": "Carner bord",
+    "scientific": "Entoloma sinuatum",
+    "category": "Tòxic",
+    "facts": "Hàbitat Rouredes Altitud 100 – 1600 m",
+    "source": "https://bolets.app/bolets/carner-bord",
+    "spanishName": "entoloma lívido",
+    "season": "Tardor"
+  },
+  {
+    "name": "Cep",
+    "scientific": "Boletus edulis",
+    "category": "Excel·lent",
+    "facts": "Hàbitat Fagedes Altitud 400 – 1900 m",
+    "source": "https://bolets.app/bolets/cep",
+    "spanishName": "boleto",
+    "season": "Tardor"
+  },
+  {
+    "name": "Cep d’estiu",
+    "scientific": "Boletus reticulatus",
+    "category": "Excel·lent",
+    "facts": "Hàbitat Rouredes Altitud 100 – 1500 m",
+    "source": "https://bolets.app/bolets/cep-d-estiu",
+    "spanishName": "boleto reticulado",
+    "season": "Estiu"
+  },
+  {
+    "name": "Cep negre",
+    "scientific": "Boletus aereus",
+    "category": "Excel·lent",
+    "facts": "Hàbitat Alzinars Altitud 50 – 1000 m",
+    "source": "https://bolets.app/bolets/cep-negre",
+    "spanishName": "boleto negro",
+    "season": "Tardor"
+  },
+  {
+    "name": "Cep rogenc",
+    "scientific": "Boletus pinophilus",
+    "category": "Excel·lent",
+    "facts": "Hàbitat Pinedes de pi roig Altitud 600 – 2100 m",
+    "source": "https://bolets.app/bolets/cep-rogenc",
+    "spanishName": "boleto de pino",
+    "season": "Tardor"
+  },
+  {
+    "name": "Cigró",
+    "scientific": "Leccinellum lepidum",
+    "category": "Interès moderat",
+    "facts": "Hàbitat Alzinars i suredes Temporada Tardor i hivern",
+    "source": "https://bolets.app/bolets/cigro-alzinenc",
+    "spanishName": "boleto agradable",
+    "season": "Tardor i hivern"
+  },
+  {
+    "name": "Cogomassa",
+    "scientific": "Amanita verna",
+    "category": "Molt tòxic",
+    "facts": "Hàbitat Alzinars Altitud 100 – 1200 m",
+    "source": "https://bolets.app/bolets/cogomassa",
+    "spanishName": "oronja blanca",
+    "season": "Primavera"
+  },
+  {
+    "name": "Cortinari metzinós",
+    "scientific": "Cortinarius orellanus",
+    "category": "Molt tòxic",
+    "facts": "Hàbitat Rouredes Altitud 400 – 1900 m",
+    "source": "https://bolets.app/bolets/cortinari-metzinos",
+    "spanishName": "cortinario de montaña",
+    "season": "Tardor"
+  },
+  {
+    "name": "Cortinari mortal",
+    "scientific": "Cortinarius rubellus",
+    "category": "Molt tòxic",
+    "facts": "Hàbitat Pinedes i boscos de coníferes Altitud 700 – 2200 m",
+    "source": "https://bolets.app/bolets/cortinari-mortal",
+    "spanishName": "cortinario rojizo",
+    "season": "Tardor"
+  },
+  {
+    "name": "Fals camagroc",
+    "scientific": "Craterellus tubaeformis",
+    "category": "Molt bo",
+    "facts": "Hàbitat Pinedes de muntanya Altitud 250 – 1500 m",
+    "source": "https://bolets.app/bolets/fals-camagroc",
+    "spanishName": "rebozuelo atrompetado",
+    "season": "Tardor"
+  },
+  {
+    "name": "Fals rossinyol",
+    "scientific": "Hygrophoropsis aurantiaca",
+    "category": "No recomanat",
+    "facts": "Hàbitat Pinedes i rouredes Temporada Tardor",
+    "source": "https://bolets.app/bolets/fals-rossinyol",
+    "spanishName": "falso rebozuelo",
+    "season": "Tardor"
+  },
+  {
+    "name": "Farinera borda",
+    "scientific": "Amanita phalloides",
+    "category": "Molt tòxic",
+    "facts": "Hàbitat Alzinars Altitud 100 – 1400 m",
+    "source": "https://bolets.app/bolets/farinera-borda",
+    "spanishName": "oronja verde",
+    "season": "Tardor"
+  },
+  {
+    "name": "Farinera pudent",
+    "scientific": "Amanita virosa",
+    "category": "Molt tòxic",
+    "facts": "Hàbitat Fagedes Altitud 600 – 2000 m",
+    "source": "https://bolets.app/bolets/farinera-pudent",
+    "spanishName": "amanita maloliente",
+    "season": "Tardor"
+  },
+  {
+    "name": "Fredolic",
+    "scientific": "Tricholoma terreum",
+    "category": "Acceptable",
+    "facts": "Hàbitat Pinedes Altitud 100 – 1700 m",
+    "source": "https://bolets.app/bolets/fredolic",
+    "spanishName": "negrilla",
+    "season": "Tardor"
+  },
+  {
+    "name": "Fredolic gros",
+    "scientific": "Tricholoma portentosum",
+    "category": "Molt bo",
+    "facts": "Hàbitat Pinedes Altitud 500 – 2200 m",
+    "source": "https://bolets.app/bolets/fredolic-gros",
+    "spanishName": "capuchina",
+    "season": "Tardor"
+  },
+  {
+    "name": "Fredolic metzinós",
+    "scientific": "Tricholoma pardinum",
+    "category": "Tòxic",
+    "facts": "Hàbitat Boscos de coníferes Altitud 900 – 2000 m",
+    "source": "https://bolets.app/bolets/fredolic-metzinos",
+    "spanishName": "tricoloma atigrado",
+    "season": "Tardor"
+  },
+  {
+    "name": "Galerina metzinosa",
+    "scientific": "Galerina marginata",
+    "category": "Molt tòxic",
+    "facts": "Hàbitat Boscos de coníferes Altitud 100 – 2100 m",
+    "source": "https://bolets.app/bolets/galerina-metzinosa",
+    "spanishName": "galerina marginada",
+    "season": "Tardor"
+  },
+  {
+    "name": "Gírgola",
+    "scientific": "Pleurotus ostreatus",
+    "category": "Molt bo",
+    "facts": "Hàbitat Bosc de ribera Altitud 0 – 1800 m",
+    "source": "https://bolets.app/bolets/girgola",
+    "spanishName": "seta de ostra",
+    "season": "Tardor i hivern"
+  },
+  {
+    "name": "Gírgola de panical",
+    "scientific": "Pleurotus eryngii",
+    "category": "Molt bo",
+    "facts": "Hàbitat Prats Altitud 0 – 1600 m",
+    "source": "https://bolets.app/bolets/girgola-de-panical",
+    "spanishName": "seta de cardo",
+    "season": "Tardor"
+  },
+  {
+    "name": "Inocibe de Patouillard",
+    "scientific": "Inosperma erubescens",
+    "category": "Molt tòxic",
+    "facts": "Hàbitat Boscos de planifolis Altitud 300 – 1600 m",
+    "source": "https://bolets.app/bolets/inocibe-de-patouillard",
+    "spanishName": "inocibe de Patouillard",
+    "season": "Primavera"
+  },
+  {
+    "name": "Llenega",
+    "scientific": "Hygrophorus latitabundus",
+    "category": "Excel·lent",
+    "facts": "Hàbitat Pinedes calcàries Altitud 200 – 1500 m",
+    "source": "https://bolets.app/bolets/llenega",
+    "spanishName": "llanega negra",
+    "season": "Tardor"
+  },
+  {
+    "name": "Llenega blanca",
+    "scientific": "Hygrophorus eburneus",
+    "category": "Molt bo",
+    "facts": "Hàbitat Fagedes Altitud 400 – 1700 m",
+    "source": "https://bolets.app/bolets/llenega-blanca",
+    "spanishName": "higróforo marfileño",
+    "season": "Tardor"
+  },
+  {
+    "name": "Llengua de bou",
+    "scientific": "Hydnum repandum",
+    "category": "Molt bo",
+    "facts": "Hàbitat Fagedes Altitud 200 – 1800 m",
+    "source": "https://bolets.app/bolets/llengua-de-bou",
+    "spanishName": "lengua de vaca",
+    "season": "Tardor"
+  },
+  {
+    "name": "Lleterola roja",
+    "scientific": "Lactifluus rugatus",
+    "category": "Bon comestible",
+    "facts": "Hàbitat Alzinars i suredes Temporada Final d’estiu i tardor",
+    "source": "https://bolets.app/bolets/lleterola-roja",
+    "spanishName": "níscalo arrugado",
+    "season": "A final d’estiu i tardor"
+  },
+  {
+    "name": "Llora aspra",
+    "scientific": "Russula cyanoxantha",
+    "category": "Excel·lent",
+    "facts": "Hàbitat Boscos de planifolis Temporada Estiu i tardor",
+    "source": "https://bolets.app/bolets/llora-aspra",
+    "spanishName": "carbonera",
+    "season": "Estiu i tardor"
+  },
+  {
+    "name": "Llora verda",
+    "scientific": "Russula virescens",
+    "category": "Molt bo",
+    "facts": "Hàbitat Rouredes Altitud 100 – 1500 m",
+    "source": "https://bolets.app/bolets/llora-verda",
+    "spanishName": "rúsula verdosa",
+    "season": "Tardor"
+  },
+  {
+    "name": "Marçot",
+    "scientific": "Hygrophorus marzuolus",
+    "category": "Acceptable",
+    "facts": "Hàbitat Boscos de coníferes Altitud 500 – 2200 m",
+    "source": "https://bolets.app/bolets/marcot",
+    "spanishName": "seta de marzo",
+    "season": "Primavera"
+  },
+  {
+    "name": "Matagent",
+    "scientific": "Rubroboletus satanas",
+    "category": "Molt tòxic",
+    "facts": "Hàbitat Alzinars Altitud 100 – 1200 m",
+    "source": "https://bolets.app/bolets/matagent",
+    "spanishName": "boleto de Satanás",
+    "season": "Tardor"
+  },
+  {
+    "name": "Mataparent",
+    "scientific": "Tylopilus felleus",
+    "category": "No comestible",
+    "facts": "Hàbitat Pinedes Altitud 200 – 1800 m",
+    "source": "https://bolets.app/bolets/mataparent",
+    "spanishName": "boleto amargo",
+    "season": "Tardor"
+  },
+  {
+    "name": "Moixernó",
+    "scientific": "Calocybe gambosa",
+    "category": "Excel·lent",
+    "facts": "Hàbitat Prats Altitud 100 – 1800 m",
+    "source": "https://bolets.app/bolets/moixero",
+    "spanishName": "seta de San Jorge",
+    "season": "Primavera"
+  },
+  {
+    "name": "Molleric de calceta",
+    "scientific": "Suillus luteus",
+    "category": "Acceptable",
+    "facts": "Hàbitat Pinedes Altitud 0 – 1900 m",
+    "source": "https://bolets.app/bolets/molleric-de-calceta",
+    "spanishName": "boleto anillado",
+    "season": "Tardor"
+  },
+  {
+    "name": "Molleric granellut",
+    "scientific": "Suillus granulatus",
+    "category": "Acceptable",
+    "facts": "Hàbitat Pinedes Altitud 0 – 2100 m",
+    "source": "https://bolets.app/bolets/molleric-granellut",
+    "spanishName": "boleto granulado",
+    "season": "Tardor"
+  },
+  {
+    "name": "Múrgola",
+    "scientific": "Morchella esculenta",
+    "category": "Excel·lent",
+    "facts": "Hàbitat Bosc de ribera Altitud 0 – 1600 m",
+    "source": "https://bolets.app/bolets/murgola",
+    "spanishName": "colmenilla",
+    "season": "Primavera"
+  },
+  {
+    "name": "Ou de reig",
+    "scientific": "Amanita caesarea",
+    "category": "Excel·lent",
+    "facts": "Hàbitat Alzinars Altitud 50 – 1200 m",
+    "source": "https://bolets.app/bolets/ou-de-reig",
+    "spanishName": "oronja",
+    "season": "Tardor"
+  },
+  {
+    "name": "Palometa metzinosa",
+    "scientific": "Lepiota brunneoincarnata",
+    "category": "Molt tòxic",
+    "facts": "Hàbitat Prats Altitud 0 – 700 m",
+    "source": "https://bolets.app/bolets/palometa-metzinosa",
+    "spanishName": "lepiota marrón rojiza",
+    "season": "Tardor"
+  },
+  {
+    "name": "Paxil·le tòxic",
+    "scientific": "Paxillus involutus",
+    "category": "Molt tòxic",
+    "facts": "Hàbitat Boscos de planifolis Altitud 100 – 2100 m",
+    "source": "https://bolets.app/bolets/paxille-toxic",
+    "spanishName": "paxilo enrollado",
+    "season": "Tardor"
+  },
+  {
+    "name": "Pet de llop gegant",
+    "scientific": "Calvatia gigantea",
+    "category": "Interès limitat",
+    "facts": "Hàbitat Prats i pastures Temporada Estiu i tardor",
+    "source": "https://bolets.app/bolets/pet-de-llop-gegant",
+    "spanishName": "pedo de lobo gigante",
+    "season": "Estiu i tardor"
+  },
+  {
+    "name": "Pet de llop gros",
+    "scientific": "Lycoperdon utriforme",
+    "category": "No recomanat",
+    "facts": "Hàbitat Prats i pastures Temporada Primavera i tardor",
+    "source": "https://bolets.app/bolets/pet-de-llop-gros",
+    "spanishName": "bejín areolado",
+    "season": "Primavera i tardor"
+  },
+  {
+    "name": "Pet de llop perlat",
+    "scientific": "Lycoperdon perlatum",
+    "category": "Interès limitat",
+    "facts": "Hàbitat Boscos i clarianes Temporada De primavera a tardor",
+    "source": "https://bolets.app/bolets/pet-de-llop-perlat",
+    "spanishName": "pedo de lobo perlado",
+    "season": "De primavera a tardor"
+  },
+  {
+    "name": "Peu de rata bord",
+    "scientific": "Ramaria formosa",
+    "category": "Tòxic",
+    "facts": "Hàbitat Fagedes i altres boscos de planifolis Temporada Final d’estiu i tardor",
+    "source": "https://bolets.app/bolets/peu-de-rata-bord",
+    "spanishName": "ramaria elegante",
+    "season": "A final d’estiu i tardor"
+  },
+  {
+    "name": "Peu de rata daurat",
+    "scientific": "Ramaria aurea",
+    "category": "No recomanat",
+    "facts": "Hàbitat Fagedes Altitud 400 – 1700 m",
+    "source": "https://bolets.app/bolets/peu-de-rata-daurat",
+    "spanishName": "coral dorado",
+    "season": "Tardor"
+  },
+  {
+    "name": "Pimpinella morada",
+    "scientific": "Lepista nuda",
+    "category": "Molt bo",
+    "facts": "Hàbitat Boscos de planifolis Altitud 0 – 1800 m",
+    "source": "https://bolets.app/bolets/pimpinella-morada",
+    "spanishName": "pie azul",
+    "season": "Tardor"
+  },
+  {
+    "name": "Pinetell",
+    "scientific": "Lactarius deliciosus",
+    "category": "Molt bo",
+    "facts": "Hàbitat Pinedes Altitud 0 – 1800 m",
+    "source": "https://bolets.app/bolets/pinetell",
+    "spanishName": "níscalo",
+    "season": "Tardor"
+  },
+  {
+    "name": "Pinetell bord",
+    "scientific": "Lactarius chrysorrheus",
+    "category": "No comestible",
+    "facts": "Hàbitat Rouredes i alzinars Temporada Estiu i tardor",
+    "source": "https://bolets.app/bolets/pinetell-bord",
+    "spanishName": "falso níscalo",
+    "season": "Estiu i tardor"
+  },
+  {
+    "name": "Pixacà",
+    "scientific": "Amanita pantherina",
+    "category": "Molt tòxic",
+    "facts": "Hàbitat Rouredes Altitud 100 – 1800 m",
+    "source": "https://bolets.app/bolets/pixaca",
+    "spanishName": "amanita pantera",
+    "season": "Tardor"
+  },
+  {
+    "name": "Pollancró",
+    "scientific": "Cyclocybe cylindracea",
+    "category": "Molt bo",
+    "facts": "Hàbitat Bosc de ribera Altitud 0 – 1400 m",
+    "source": "https://bolets.app/bolets/pollancro",
+    "spanishName": "seta de chopo",
+    "season": "Tardor"
+  },
+  {
+    "name": "Reig bord",
+    "scientific": "Amanita muscaria",
+    "category": "Tòxic",
+    "facts": "Hàbitat Pinedes Altitud 400 – 2100 m",
+    "source": "https://bolets.app/bolets/reig-bord",
+    "spanishName": "matamoscas",
+    "season": "Tardor"
+  },
+  {
+    "name": "Rossinyol",
+    "scientific": "Cantharellus cibarius",
+    "category": "Excel·lent",
+    "facts": "Hàbitat Fagedes Altitud 300 – 1800 m",
+    "source": "https://bolets.app/bolets/rossinyol",
+    "spanishName": "rebozuelo",
+    "season": "Tardor"
+  },
+  {
+    "name": "Rovelló",
+    "scientific": "Lactarius sanguifluus",
+    "category": "Excel·lent",
+    "facts": "Hàbitat Pinedes de pi blanc, pinassa o pi roig Altitud 0 – 1200 m",
+    "source": "https://bolets.app/bolets/rovello",
+    "spanishName": "níscalo sanguíneo",
+    "season": "Tardor"
+  },
+  {
+    "name": "Rovelló de cabra",
+    "scientific": "Lactarius torminosus",
+    "category": "Tòxic",
+    "facts": "Hàbitat Bedollars Temporada Estiu i tardor",
+    "source": "https://bolets.app/bolets/rovello-de-cabra",
+    "spanishName": "níscalo lanudo",
+    "season": "Estiu i tardor"
+  },
+  {
+    "name": "Tòfona negra",
+    "scientific": "Tuber melanosporum",
+    "category": "Excel·lent",
+    "facts": "Hàbitat Alzinars Altitud 500 – 1300 m",
+    "source": "https://bolets.app/bolets/tofona-negra",
+    "spanishName": "trufa negra",
+    "season": "Hivern"
+  },
+  {
+    "name": "Trompeta de la mort",
+    "scientific": "Craterellus cornucopioides",
+    "category": "Molt bo",
+    "facts": "Hàbitat Fagedes Altitud 100 – 1600 m",
+    "source": "https://bolets.app/bolets/trompeta-de-la-mort",
+    "spanishName": "trompeta de los muertos",
+    "season": "Tardor"
+  }
+]
