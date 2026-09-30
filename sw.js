@@ -1,5 +1,5 @@
-const CACHE_NAME = 'boletus-field-guide-v1';
-const CORE = ['./', './index.html', './styles.css', './app.js', './manifest.webmanifest', './assets/icon.svg', './assets/icon-192.png', './assets/icon-512.png', './data/species.json', './data/photos.json'];
+const CACHE_NAME = 'boletus-field-guide-v0.1.1';
+const CORE = ['./', './index.html', './styles.css', './app.js', './package.json', './manifest.webmanifest', './assets/icon.svg', './assets/icon-192.png', './assets/icon-512.png', './data/species.json', './data/photos.json'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {

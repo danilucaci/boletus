@@ -1,28 +1,28 @@
 # Boletus
 
-Guía de campo instalable para el móvil. Incluye un catálogo de 62 especies de Cataluña con clasificación orientativa, notas de identificación, fotos y confusiones relevantes. Funciona sin conexión después de la primera descarga y guarda los hallazgos en el navegador.
+Guia de camp instal·lable al mòbil. Inclou un catàleg de 62 espècies de Catalunya amb classificació orientativa, notes d'identificació, fotos i possibles confusions. Funciona sense connexió després de la primera descàrrega i desa les troballes al navegador.
 
-## Desplegar en Netlify
+## Publicació a Netlify
 
-1. En Netlify, elige **Add new site → Import an existing project** y conecta este repositorio.
-2. Usa la rama `main`. El archivo `netlify.toml` ya configura la publicación desde la raíz; no hay comando de compilación.
-3. Abre la URL HTTPS resultante en el móvil con conexión y espera a que la sección **Offline** indique **Guía descargada**. Añade la web a la pantalla de inicio.
-4. Prueba el modo avión antes de salir al bosque.
+1. A Netlify, tria **Add new project → Import an existing project** i connecta aquest repositori.
+2. Selecciona la branca `main`. El fitxer `netlify.toml` ja configura la publicació des de l'arrel; no cal cap ordre de compilació.
+3. Obre l'adreça HTTPS al mòbil amb connexió i espera que la secció **Sense connexió** indiqui **Guia descarregada**. Afegeix el web a la pantalla d'inici.
+4. Prova el mode avió abans de sortir al bosc.
 
-No hacen falta API keys, cuentas ni servicios externos para la guía, las fotos o el cuaderno. Los enlaces a las fuentes externas solo se abren con conexión.
+No calen claus d'API, comptes ni serveis externs per a la guia, les fotos o el quadern. Els enllaços a fonts externes només funcionen amb connexió.
 
-## Datos y fotografías
+## Dades i fotografies
 
-- `data/species.json`: 62 entradas con nombres, clasificación, hábitat y notas breves. Los campos factuales se contrastaron con [Bolets Atles](https://bolets.app/bolets), la [Generalitat de Catalunya](https://canalaliments.gencat.cat/ca/coneix-aliments/bolets-tofona/bolets/) y la [ACSA](https://acsa.gencat.cat/ca/detall/article/Bolets).
-- `data/photos.json`: autor, licencia y enlace de origen para cada imagen descargada de Wikimedia Commons. Las fotos se sirven desde `assets/species/`, dentro del mismo sitio, para que funcionen offline.
-- `scripts/`: scripts usados para preparar el catálogo y las fotos; no son necesarios para ejecutar o desplegar la app.
+- `data/species.json`: 62 entrades amb noms, classificació, hàbitat i notes breus. Les dades s'han contrastat amb [Bolets Atles](https://bolets.app/bolets), la [Generalitat de Catalunya](https://canalaliments.gencat.cat/ca/coneix-aliments/bolets-tofona/bolets/) i l'[ACSA](https://acsa.gencat.cat/ca/detall/article/Bolets).
+- `data/photos.json`: autor, llicència i enllaç d'origen de cada imatge descarregada de Wikimedia Commons. Les fotos es distribueixen des de `assets/species/`, dins del mateix web, perquè funcionin sense connexió.
+- `scripts/`: eines utilitzades per preparar el catàleg i les fotos; no calen per executar o publicar l'aplicació.
 
-Las fichas describen **especies**, no certifican la identificación de una seta concreta encontrada en el bosque.
+Les fitxes descriuen **espècies**; no certifiquen la identificació d'un bolet concret trobat al bosc.
 
-## Datos personales
+## Dades personals
 
-Las fotos y notas de los hallazgos se guardan en IndexedDB, dentro del navegador del móvil. No se envían a ningún servidor. Se pueden exportar e importar como archivo JSON desde **Hallazgos**. Borrar los datos del sitio también borra el cuaderno local.
+Les fotos i notes de les troballes es desen a IndexedDB, dins del navegador del mòbil. No s'envien a cap servidor. Es poden exportar i importar com a fitxer JSON des de **Troballes**. Si esborres les dades del lloc, també s'esborra el quadern local.
 
-## Desarrollo local
+## Desenvolupament local
 
-Sirve la carpeta con cualquier servidor HTTP estático, por ejemplo `python3 -m http.server 8080`, y abre `http://localhost:8080`. El service worker necesita HTTPS o `localhost`; abrir `index.html` como archivo no permite probar el modo offline.
+Serveix la carpeta amb qualsevol servidor HTTP estàtic, per exemple `python3 -m http.server 8080`, i obre `http://localhost:8080`. El *service worker* necessita HTTPS o `localhost`; si obres `index.html` com a fitxer, no podràs provar el mode sense connexió.

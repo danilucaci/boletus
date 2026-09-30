@@ -1,13 +1,13 @@
 {
-  "name": "Boletus · guía de campo",
+  "name": "Boletus · guia de camp",
   "short_name": "Boletus",
-  "description": "Guía de setas de Cataluña disponible sin conexión",
+  "description": "Guia de bolets de Catalunya disponible sense connexió",
   "start_url": "./#guia",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f6f4ed",
   "theme_color": "#f6f4ed",
-  "lang": "es",
+  "lang": "ca",
   "icons": [
     {"src":"./assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
     {"src":"./assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
