@@ -2,10 +2,14 @@ const $ = (selector) => document.querySelector(selector);
 const esc = (value = '') => String(value).replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fold = (value) => String(value).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 const dateLabel = (value) => new Intl.DateTimeFormat('ca-ES', {dateStyle:'medium'}).format(new Date(value));
+const CACHE_NAME = 'boletus-field-guide-v0.2.0';
+const CORE_FILES = ['./', './index.html', './styles.css', './app.js', './sw.js', './package.json', './manifest.webmanifest', './assets/icon.svg', './assets/icon-192.png', './assets/icon-512.png', './data/species.json', './data/photos.json'];
 let species = [];
 let photos = {};
 let filter = 'all';
 let deferredInstall;
+let offlineReady = false;
+let offlineTask;
 let editingId = null;
 let pendingPhotos = [];
 const objectUrls = new Set();
@@ -36,14 +40,13 @@ function openSpecies(id) {
   if (!item) return;
   const pictures = photos[item.scientific] || [];
   const similar = item.lookalikes.map((lookalike) => species.find((entry) => entry.id === lookalike)).filter(Boolean);
-  $('#species-detail').innerHTML = `<div class="detail-header"><div><span class="status-tag ${item.status}">${categoryLabel(item)} · ${esc(item.category)}</span><h2 class="detail-title">${esc(item.name)}</h2><div class="detail-scientific"><em>${esc(item.scientific)}</em></div></div><button class="icon-button close-dialog" aria-label="Tanca la fitxa">×</button></div>${pictures.length ? `<div class="detail-gallery">${pictures.map((image, index) => `<figure class="gallery-example"><img src="./${esc(image.file)}" alt="Exemple ${index + 1} de ${esc(item.scientific)}" loading="lazy"><figcaption>Exemple fotogràfic ${index + 1} de ${pictures.length}</figcaption></figure>`).join('')}</div>` : ''}<div class="detail-body"><p class="detail-note">${esc(item.note)}</p>${item.examples?.length ? `<div class="detail-examples"><h3>Exemples per comparar</h3><ul>${item.examples.map((example) => `<li>${esc(example)}</li>`).join('')}</ul></div>` : ''}<dl class="detail-facts"><div><dt>Hàbitat</dt><dd>${esc(item.habitat || 'Consulta la font')}</dd></div><div><dt>Altitud</dt><dd>${esc(item.altitude || 'Variable')}</dd></div><div><dt>Temporada</dt><dd>${esc(item.season || 'Segons la zona')}</dd></div></dl>${similar.length ? `<h3>Possibles confusions</h3><div class="lookalikes">${similar.map((entry) => `<button data-species="${esc(entry.id)}">${esc(entry.name)} · ${categoryLabel(entry)}</button>`).join('')}</div>` : ''}<h3>Fotos i fonts</h3><div class="detail-sources"><a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">Fitxa de referència a Bolets Atles ↗</a>${pictures.length ? `<ul>${pictures.map((image) => `<li><a href="${esc(image.source)}" target="_blank" rel="noopener noreferrer">${esc(image.title)}</a> · ${esc(image.author)} · <a href="${esc(image.licenseUrl || image.source)}" target="_blank" rel="noopener noreferrer">${esc(image.license)}</a></li>`).join('')}</ul>` : '<p>No s’ha pogut incloure cap imatge amb llicència oberta per a aquesta espècie.</p>'}</div><button class="button button-primary detail-action" data-new-finding="${esc(item.id)}">+ Desa una troballa semblant</button><p class="small-print">La categoria correspon a l'espècie descrita; una foto no identifica un exemplar trobat.</p></div>`;
+  $('#species-detail').innerHTML = `<div class="detail-header"><div><span class="status-tag ${item.status}">${categoryLabel(item)} · ${esc(item.category)}</span><h2 class="detail-title">${esc(item.name)}</h2><div class="detail-scientific"><em>${esc(item.scientific)}</em></div></div><button class="icon-button close-dialog" aria-label="Tanca la fitxa">×</button></div>${pictures.length ? `<div class="detail-gallery">${pictures.map((image, index) => `<figure class="gallery-example"><a href="./${esc(image.file)}" target="_blank" rel="noopener" aria-label="Amplia la fotografia ${index + 1} de ${esc(item.name)}"><img src="./${esc(image.file)}" alt="Exemple ${index + 1} de ${esc(item.scientific)}" loading="lazy"></a><figcaption>Foto ${index + 1} de ${pictures.length} · Toca per ampliar</figcaption></figure>`).join('')}</div>` : ''}<div class="detail-body"><p class="detail-note">${esc(item.note)}</p>${item.marks?.length ? `<div class="detail-examples"><h3>Trets per observar</h3><dl class="detail-marks">${item.marks.map((mark, index) => `<div><dt>${['Barret o forma', 'Part inferior', 'Peu o base'][index]}</dt><dd>${esc(mark)}</dd></div>`).join('')}</dl></div>` : ''}${item.examples?.length ? `<div class="detail-examples"><h3>Exemples per comparar</h3><ul>${item.examples.map((example) => `<li>${esc(example)}</li>`).join('')}</ul></div>` : ''}<dl class="detail-facts"><div><dt>Hàbitat</dt><dd>${esc(item.habitat || 'Consulta la font')}</dd></div><div><dt>Altitud</dt><dd>${esc(item.altitude || 'Variable')}</dd></div><div><dt>Temporada</dt><dd>${esc(item.season || 'Segons la zona')}</dd></div></dl>${similar.length ? `<h3>Possibles confusions</h3><div class="lookalikes">${similar.map((entry) => `<button data-species="${esc(entry.id)}">${esc(entry.name)} · ${categoryLabel(entry)}</button>`).join('')}</div>` : ''}<h3>Fotos i fonts</h3><div class="detail-sources"><a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">Fitxa de referència a Bolets Atles ↗</a>${pictures.length ? `<ul>${pictures.map((image) => `<li><a href="${esc(image.source)}" target="_blank" rel="noopener noreferrer">${esc(image.title)}</a> · ${esc(image.author)} · <a href="${esc(image.licenseUrl || image.source)}" target="_blank" rel="noopener noreferrer">${esc(image.license)}</a></li>`).join('')}</ul>` : '<p>No s’ha pogut incloure cap imatge amb llicència oberta per a aquesta espècie.</p>'}</div><button class="button button-primary detail-action" data-new-finding="${esc(item.id)}">+ Desa una troballa semblant</button><p class="small-print">La categoria correspon a l'espècie descrita; una foto no identifica un exemplar trobat.</p></div>`;
   if (!$('#species-dialog').open) $('#species-dialog').showModal();
 }
 
 function updateConnection() {
-  const online = navigator.onLine;
-  $('#connection').textContent = online ? '● Amb connexió' : '● Sense cobertura';
-  $('#connection').classList.toggle('offline', !online);
+  $('#connection').textContent = offlineReady ? '● Guia a punt' : navigator.onLine ? '● Descarregant' : '● Guia incompleta';
+  $('#connection').classList.toggle('offline', !offlineReady);
 }
 
 function db() {
@@ -160,19 +163,50 @@ async function importFindings(file) {
   await renderFindings();
 }
 
-async function registerOffline() {
-  if (!('serviceWorker' in navigator)) { $('#offline-status').textContent = 'Aquest navegador no permet instal·lar la guia sense connexió.'; return; }
-  try {
-    const registration = await navigator.serviceWorker.register('./sw.js');
+function registerOffline() {
+  if (offlineTask) return offlineTask;
+  offlineTask = (async () => {
+    if (!('serviceWorker' in navigator) || !('caches' in window)) throw new Error('Offline unavailable');
+    await navigator.serviceWorker.register('./sw.js');
     await navigator.serviceWorker.ready;
-    const status = await new Promise((resolve) => {
-      const channel = new MessageChannel();
-      const timer = setTimeout(() => resolve(null), 5000);
-      channel.port1.onmessage = (event) => { clearTimeout(timer); resolve(event.data); };
-      (navigator.serviceWorker.controller || registration.active)?.postMessage({type:'CACHE_STATUS'}, [channel.port2]);
-    });
-    $('#offline-status').textContent = status?.ready ? `Guia descarregada: ${status.cached} fitxers disponibles sense connexió.` : 'La descàrrega continua. Mantén aquesta pàgina oberta amb connexió uns minuts.';
-  } catch { $('#offline-status').textContent = 'No s’ha pogut completar la descàrrega. Torna a carregar la pàgina amb connexió i prova-ho de nou.'; }
+    const cache = await caches.open(CACHE_NAME);
+    const required = [...new Set([...CORE_FILES, ...Object.values(photos).flat().map((image) => `./${image.file}`)])];
+    const missing = [];
+    for (const url of required) if (!(await cache.match(url))) missing.push(url);
+    const expected = required.length;
+    let cached = expected - missing.length;
+    const report = async () => {
+      offlineReady = cached === expected;
+      $('#offline-status').textContent = offlineReady
+        ? `Guia descarregada: ${cached} fitxers disponibles sense connexió.`
+        : navigator.onLine
+          ? `Descarregant la guia: ${cached} de ${expected} fitxers. Mantén aquesta pàgina oberta.`
+          : `Guia incompleta: falten ${expected - cached} fitxers. Torna a obrir-la amb connexió.`;
+      $('#retry-offline').hidden = offlineReady;
+      updateConnection();
+      await cache.put('./offline-status.json', new Response(JSON.stringify({ready:offlineReady, cached, expected}), {headers:{'Content-Type':'application/json'}}));
+    };
+    await report();
+    for (let start = 0; start < missing.length; start += 4) {
+      const results = await Promise.allSettled(missing.slice(start, start + 4).map(async (url) => {
+        const response = await fetch(url, {cache:'reload'});
+        if (!response.ok) throw new Error(url);
+        await cache.put(url, response);
+      }));
+      const succeeded = results.filter((result) => result.status === 'fulfilled').length;
+      cached += succeeded;
+      await report();
+      if (!succeeded) break;
+    }
+    if (offlineReady) {
+      for (const key of await caches.keys()) if (key.startsWith('boletus-field-guide-') && key !== CACHE_NAME) await caches.delete(key);
+    }
+  })().catch(() => {
+    $('#offline-status').textContent = 'No s’ha pogut completar la guia. Torna-ho a provar amb connexió.';
+    $('#retry-offline').hidden = false;
+    updateConnection();
+  }).finally(() => { offlineTask = null; });
+  return offlineTask;
 }
 
 async function init() {
@@ -186,8 +220,9 @@ async function init() {
   $('#finding-species').innerHTML += species.map((item) => `<option value="${esc(item.id)}">${esc(item.name)} · ${esc(item.scientific)}</option>`).join('');
   renderSpecies(); view(); updateConnection(); registerOffline();
   window.addEventListener('hashchange', view);
-  window.addEventListener('online', updateConnection);
+  window.addEventListener('online', () => { updateConnection(); registerOffline(); });
   window.addEventListener('offline', updateConnection);
+  $('#retry-offline').addEventListener('click', registerOffline);
   $('#search').addEventListener('input', renderSpecies);
   $('#filters').addEventListener('click', (event) => { const button = event.target.closest('[data-filter]'); if (!button) return; filter = button.dataset.filter; document.querySelectorAll('.filter').forEach((entry) => { const active = entry === button; entry.classList.toggle('active', active); entry.setAttribute('aria-pressed', active); }); renderSpecies(); });
   $('#species-grid').addEventListener('click', (event) => { const card = event.target.closest('[data-species]'); if (card) openSpecies(card.dataset.species); });

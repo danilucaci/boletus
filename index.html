@@ -25,11 +25,13 @@
           <div>
             <div class="eyebrow"><span class="eyebrow-line"></span> LA TEVA GUIA DE BUTXACA</div>
             <h1>Surt al bosc.<br><em>Emporta't la guia.</em></h1>
-            <p>132 fotos, exemples de trets i possibles confusions de 62 bolets de Catalunya. Tot el catàleg queda disponible sense cobertura.</p>
+            <p>248 fotos, exemples de trets i possibles confusions de 62 bolets de Catalunya. Tot el catàleg queda disponible sense cobertura.</p>
             <div class="intro-actions">
               <a class="button button-primary" href="#cataleg">Explora les espècies <span aria-hidden="true">↗</span></a>
               <button id="install-button" class="button button-secondary" hidden>Instal·la l'app</button>
             </div>
+            <p id="offline-status" class="offline-status" aria-live="polite">Preparant la descàrrega sense connexió…</p>
+            <button id="retry-offline" class="button button-secondary" type="button" hidden>Reprèn la descàrrega</button>
           </div>
           <button id="featured" class="featured" type="button" aria-label="Veure la fitxa del rovelló">
             <img id="featured-image" alt="Rovelló" loading="eager">
@@ -63,14 +65,13 @@
 
       <section id="about-view" class="view about-view" hidden aria-labelledby="about-heading">
         <div class="eyebrow">ABANS DE SORTIR</div><h1 id="about-heading">A punt per anar sense cobertura<span class="heading-dot">.</span></h1>
-        <p>Obre aquest web una vegada amb connexió i espera que aparegui «Guia descarregada». Després el pots afegir a la pantalla d'inici.</p>
+        <p>Obre aquest web una vegada amb connexió i espera que a la portada aparegui «Guia descarregada». Després el pots afegir a la pantalla d'inici.</p>
         <div class="about-cards"><article><span class="step-number">01</span><h2>Fitxes i fotos</h2><p>Les 62 espècies i les seves imatges es desen al dispositiu. Pots cercar i comparar sense senyal.</p></article><article><span class="step-number">02</span><h2>Les teves fotos</h2><p>Les troballes es desen en aquest navegador. Exporta'n una còpia periòdicament; si esborres les dades del lloc, també perdràs les troballes.</p></article><article><span class="step-number">03</span><h2>Revisió a casa</h2><p>Amb connexió, obre les fonts de la fitxa i compara les teves fotos. La categoria descriu una espècie, però no identifica el teu exemplar.</p></article></div>
-        <p id="offline-status" class="offline-status" aria-live="polite">Preparant la descàrrega sense connexió…</p>
         <div class="source-note"><h2>Fonts i crèdits</h2><p>Els noms, les categories i els hàbitats del catàleg s'han contrastat amb <a href="https://bolets.app/bolets" target="_blank" rel="noopener noreferrer">Bolets Atles</a>. Les notes s'han redactat per a aquesta guia i es basen també en la <a href="https://canalaliments.gencat.cat/ca/coneix-aliments/bolets-tofona/bolets/" target="_blank" rel="noopener noreferrer">Generalitat de Catalunya</a> i les <a href="https://acsa.gencat.cat/ca/detall/article/Bolets" target="_blank" rel="noopener noreferrer">recomanacions de l'ACSA</a>. Les fotos provenen de Wikimedia Commons; cada fitxa enllaça amb l'autor i la llicència.</p><p class="small-print">La classificació és orientativa. Si no pots identificar un exemplar amb seguretat, no el consumeixis.</p></div>
       </section>
     </main>
 
-    <footer class="site-footer">Boletus <span id="app-version" aria-label="Versió">v0.1.2</span></footer>
+    <footer class="site-footer">Boletus <span id="app-version" aria-label="Versió">v0.2.0</span></footer>
     <nav class="bottom-nav" aria-label="Navegació principal"><a href="#guia" data-nav="guia" class="active"><span aria-hidden="true">✳</span> Guia</a><a href="#troballes" data-nav="troballes"><span aria-hidden="true">◎</span> Troballes</a><a href="#sense-connexio" data-nav="sense-connexio"><span aria-hidden="true">↓</span> Sense connexió</a></nav>
 
     <dialog id="species-dialog" class="species-dialog"><div id="species-detail"></div></dialog>

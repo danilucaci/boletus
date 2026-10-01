@@ -10,7 +10,12 @@
     "season": "Tardor",
     "note": "Barret gran amb escates brunes, peu esvelt amb dibuix i anell mòbil.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/apagallums"
+    "source": "https://bolets.app/bolets/apagallums",
+    "marks": [
+      "Barret pàl·lid molt gran, amb escates marrons i un bony al centre.",
+      "Làmines clares que no arriben a tocar el peu.",
+      "Peu alt amb dibuix serpentejant i anell que es pot desplaçar."
+    ]
   },
   {
     "id": "omphalotus-olearius",
@@ -22,11 +27,18 @@
     "altitude": "0 – 900 m",
     "season": "Tardor",
     "note": "Taronja intens; sol créixer en grups units sobre fusta o arrels. Es pot confondre amb el rossinyol.",
-    "lookalikes": [],
+    "lookalikes": [
+      "cantharellus-cibarius"
+    ],
     "source": "https://bolets.app/bolets/bolet-d-olivera",
     "examples": [
       "Exemple d’hàbitat: pot formar grups units sobre fusta o arrels.",
       "Exemple de confusió: el rossinyol té plecs sota el barret, no làmines fines."
+    ],
+    "marks": [
+      "Barret taronja que es va enfonsant; sovint surt en feixos.",
+      "Làmines fines, taronges i descendents: no són els plecs del rossinyol.",
+      "Peu curt, sovint descentrat, unit a fusta o arrels."
     ]
   },
   {
@@ -40,7 +52,12 @@
     "season": "Primavera",
     "note": "Barret irregular amb plecs que recorden un cervell. És tòxic fins i tot després de coure’l.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/bolet-de-greix"
+    "source": "https://bolets.app/bolets/bolet-de-greix",
+    "marks": [
+      "Part superior marró i plegada com un cervell, sense cel·les regulars.",
+      "La superfície fèrtil és a l’exterior dels plecs, sense làmines.",
+      "Peu clar, irregular i amb cavitats; l’interior no és un buit únic."
+    ]
   },
   {
     "id": "coprinus-comatus",
@@ -53,7 +70,12 @@
     "season": "Tardor",
     "note": "De jove és blanc i allargat, amb escates; les làmines s’ennegreixen en madurar.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/bolet-de-tinta"
+    "source": "https://bolets.app/bolets/bolet-de-tinta",
+    "marks": [
+      "Barret blanc i allargat amb escates que es desfà pel marge.",
+      "Làmines primer blanques, després rosades i finalment negres.",
+      "Peu blanc i buit, amb un anell que pot desaparèixer."
+    ]
   },
   {
     "id": "chroogomphus-rutilus",
@@ -66,7 +88,12 @@
     "season": "Tardor",
     "note": "Barret de color coure i làmines gruixudes que baixen pel peu. Freqüent sota els pins.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/cama-de-perdiu"
+    "source": "https://bolets.app/bolets/cama-de-perdiu",
+    "marks": [
+      "Barret de tons coure, sovint una mica enganxós després de ploure.",
+      "Làmines gruixudes i separades que baixen molt pel peu i s’enfosqueixen.",
+      "Peu groguenc o rogenc, sense anell."
+    ]
   },
   {
     "id": "craterellus-lutescens",
@@ -78,11 +105,18 @@
     "altitude": "400 – 1700 m",
     "season": "Tardor",
     "note": "Petit embut de tons bruns, amb el peu groc viu i plecs poc marcats.",
-    "lookalikes": [],
+    "lookalikes": [
+      "craterellus-tubaeformis"
+    ],
     "source": "https://bolets.app/bolets/camagroc",
     "examples": [
       "Exemple de peu: és groc viu i buit per dins.",
       "Exemple de cara inferior: és grisenca, gairebé llisa o amb plecs molt discrets."
+    ],
+    "marks": [
+      "Barret petit i ondulat amb centre enfonsat, de tons bruns.",
+      "Revers gris quasi llis, sense làmines ni plecs marcats.",
+      "Peu prim, buit i d’un groc intens."
     ]
   },
   {
@@ -95,8 +129,15 @@
     "altitude": "0 – 2000 m",
     "season": "Primavera i tardor",
     "note": "Bolet petit de prat, amb el peu flexible i les làmines separades; pot aparèixer en erols.",
-    "lookalikes": [],
-    "source": "https://bolets.app/bolets/camasec"
+    "lookalikes": [
+      "collybia-rivulosa"
+    ],
+    "source": "https://bolets.app/bolets/camasec",
+    "marks": [
+      "Barret clar que canvia de to amb la humitat i sovint té un petit bony.",
+      "Làmines pàl·lides i separades entre si.",
+      "Peu prim i resistent que es doblega sense trencar-se fàcilment."
+    ]
   },
   {
     "id": "agaricus-campestris",
@@ -109,7 +150,12 @@
     "season": "Primavera i tardor",
     "note": "Creix als prats; les làmines passen de rosades a marró fosc. Examina sempre la base sencera.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/camperol"
+    "source": "https://bolets.app/bolets/camperol",
+    "marks": [
+      "Barret blanc o crema que s’aplana en créixer.",
+      "Làmines rosades en exemplars joves, més tard de color xocolata.",
+      "Peu amb anell discret; cal veure la base sencera i comprovar que no té volva."
+    ]
   },
   {
     "id": "collybia-rivulosa",
@@ -121,8 +167,15 @@
     "altitude": "0 – 1900 m",
     "season": "Tardor",
     "note": "Bolet pàl·lid i petit de prat, amb làmines decurrents; conté muscarina.",
-    "lookalikes": [],
-    "source": "https://bolets.app/bolets/candeleta-de-vorada"
+    "lookalikes": [
+      "marasmius-oreades"
+    ],
+    "source": "https://bolets.app/bolets/candeleta-de-vorada",
+    "marks": [
+      "Barret blanc o crema, sovint esquerdat en franges concèntriques.",
+      "Làmines clares i atapeïdes que baixen una mica pel peu.",
+      "Peu fi, blanc i sense anell; pot créixer als mateixos prats que el camasec."
+    ]
   },
   {
     "id": "hygrophorus-russula",
@@ -137,7 +190,12 @@
     "lookalikes": [
       "entoloma-sinuatum"
     ],
-    "source": "https://bolets.app/bolets/carlet"
+    "source": "https://bolets.app/bolets/carlet",
+    "marks": [
+      "Barret carnós i clar amb taques irregulars de color vi.",
+      "Làmines gruixudes i bastant espaiades, també tacades de rosa.",
+      "Peu robust amb marques vinoses, sense anell."
+    ]
   },
   {
     "id": "entoloma-sinuatum",
@@ -149,8 +207,15 @@
     "altitude": "100 – 1600 m",
     "season": "Tardor",
     "note": "Barret gran i pàl·lid; les làmines adquireixen un to rosat en madurar.",
-    "lookalikes": [],
-    "source": "https://bolets.app/bolets/carner-bord"
+    "lookalikes": [
+      "hygrophorus-russula"
+    ],
+    "source": "https://bolets.app/bolets/carner-bord",
+    "marks": [
+      "Barret pàl·lid i robust amb vora sovint ondulada.",
+      "Làmines que passen del crema al rosa salmó en madurar.",
+      "Peu blanc i gruixut, sense anell ni volva."
+    ]
   },
   {
     "id": "boletus-edulis",
@@ -170,6 +235,11 @@
     "examples": [
       "Exemple de cara inferior: hi ha porus en lloc de làmines.",
       "Exemple de confusió: al mataparent els porus es tornen rosats i la retícula del peu és fosca."
+    ],
+    "marks": [
+      "Barret marró amb la vora habitualment més clara.",
+      "Sota el barret hi ha porus: blancs de joves i després groguencs o verdosos.",
+      "Peu ample i clar amb una xarxa fina prop del barret."
     ]
   },
   {
@@ -183,7 +253,12 @@
     "season": "Estiu",
     "note": "Cep de barret sec i peu reticulat, freqüent als boscos de planifolis.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/cep-d-estiu"
+    "source": "https://bolets.app/bolets/cep-d-estiu",
+    "marks": [
+      "Barret color avellana, sec i sovint esquerdat amb calor.",
+      "Porus inicialment blancs que viren cap al groc oliva.",
+      "Peu robust amb xarxa visible en bona part de la superfície."
+    ]
   },
   {
     "id": "boletus-aereus",
@@ -196,7 +271,12 @@
     "season": "Tardor",
     "note": "Cep de barret molt fosc i porus clars de jove; apareix en boscos càlids.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/cep-negre"
+    "source": "https://bolets.app/bolets/cep-negre",
+    "marks": [
+      "Barret molt fosc, gairebé negre, amb tacte vellutat de jove.",
+      "Porus clars que es tornen olivacis amb l’edat.",
+      "Peu massís i més pàl·lid, amb reticle fi."
+    ]
   },
   {
     "id": "boletus-pinophilus",
@@ -209,7 +289,12 @@
     "season": "Tardor",
     "note": "Cep de barret bru vermellós i peu gruixut, associat a pinedes de muntanya.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/cep-rogenc"
+    "source": "https://bolets.app/bolets/cep-rogenc",
+    "marks": [
+      "Barret voluminós de tons vi o castany rogenc.",
+      "Porus clars que es fan grocs i després olivacis.",
+      "Peu gruixut i clar amb una xarxa pàl·lida."
+    ]
   },
   {
     "id": "leccinellum-lepidum",
@@ -222,7 +307,12 @@
     "season": "Tardor i hivern",
     "note": "Cep mediterrani de porus grocs i petites escates al peu.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/cigro-alzinenc"
+    "source": "https://bolets.app/bolets/cigro-alzinenc",
+    "marks": [
+      "Barret bru, abonyegat de vegades i més llefiscós amb humitat.",
+      "Porus grocs que tendeixen a enfosquir-se lentament en pressionar-los.",
+      "Peu groguenc cobert de petits punts o escames que s’enfosqueixen."
+    ]
   },
   {
     "id": "amanita-verna",
@@ -235,7 +325,12 @@
     "season": "Primavera",
     "note": "Amanita completament blanca, amb làmines blanques, anell i volva a la base.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/cogomassa"
+    "source": "https://bolets.app/bolets/cogomassa",
+    "marks": [
+      "Barret totalment blanc i llis que s’estén en madurar.",
+      "Làmines sempre blanques, separades del peu.",
+      "Anell al peu i volva ampla que envolta el bulb basal."
+    ]
   },
   {
     "id": "cortinarius-orellanus",
@@ -248,7 +343,12 @@
     "season": "Tardor",
     "note": "Bolet bru ataronjat amb cortina en exemplars joves; pot causar danys greus als ronyons.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/cortinari-metzinos"
+    "source": "https://bolets.app/bolets/cortinari-metzinos",
+    "marks": [
+      "Barret sec, ocre ataronjat i lleugerament fibrós.",
+      "Làmines que es tornen color rovell quan maduren les espores.",
+      "Peu sense anell complet, amb possibles fils de cortina."
+    ]
   },
   {
     "id": "cortinarius-rubellus",
@@ -261,7 +361,12 @@
     "season": "Tardor",
     "note": "Cortinari vermellós de coníferes; la intoxicació renal pot aparèixer dies després.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/cortinari-mortal"
+    "source": "https://bolets.app/bolets/cortinari-mortal",
+    "marks": [
+      "Barret rogenc i punxegut al centre, amb fibres visibles.",
+      "Làmines groguenques que passen a marró rovell.",
+      "Peu esvelt amb restes filamentosas de cortina."
+    ]
   },
   {
     "id": "craterellus-tubaeformis",
@@ -273,8 +378,15 @@
     "altitude": "250 – 1500 m",
     "season": "Tardor",
     "note": "Embut bru amb plecs grisosos que baixen pel peu i peu groguenc, sovint buit.",
-    "lookalikes": [],
-    "source": "https://bolets.app/bolets/fals-camagroc"
+    "lookalikes": [
+      "craterellus-lutescens"
+    ],
+    "source": "https://bolets.app/bolets/fals-camagroc",
+    "marks": [
+      "Barret gris bru en forma d’embut, amb vora fina.",
+      "Revers amb plecs gruixuts i bifurcats que baixen pel peu.",
+      "Peu buit, més apagat que el groc viu del camagroc."
+    ]
   },
   {
     "id": "hygrophoropsis-aurantiaca",
@@ -286,8 +398,15 @@
     "altitude": "",
     "season": "Tardor",
     "note": "Taronja, amb làmines fines i bifurcades; es pot confondre amb el rossinyol.",
-    "lookalikes": [],
-    "source": "https://bolets.app/bolets/fals-rossinyol"
+    "lookalikes": [
+      "cantharellus-cibarius"
+    ],
+    "source": "https://bolets.app/bolets/fals-rossinyol",
+    "marks": [
+      "Barret taronja amb centre enfonsat i superfície vellutada.",
+      "Làmines fines, nombroses i ramificades; el rossinyol té plecs.",
+      "Peu estret taronja, de vegades més fosc a la base."
+    ]
   },
   {
     "id": "amanita-phalloides",
@@ -299,8 +418,16 @@
     "altitude": "100 – 1400 m",
     "season": "Tardor",
     "note": "Barret de color variable, làmines blanques, anell i volva en forma de sac.",
-    "lookalikes": [],
-    "source": "https://bolets.app/bolets/farinera-borda"
+    "lookalikes": [
+      "russula-virescens",
+      "amanita-caesarea"
+    ],
+    "source": "https://bolets.app/bolets/farinera-borda",
+    "marks": [
+      "Barret sovint verd oliva, però també pot ser molt pàl·lid.",
+      "Làmines blanques i lliures del peu.",
+      "Anell penjant i volva blanca en forma de sac a la base."
+    ]
   },
   {
     "id": "amanita-virosa",
@@ -313,7 +440,12 @@
     "season": "Tardor",
     "note": "Amanita blanca de boscos frescos, amb làmines blanques i volva basal.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/farinera-pudent"
+    "source": "https://bolets.app/bolets/farinera-pudent",
+    "marks": [
+      "Barret blanc, sovint una mica cònic i de superfície sedosa.",
+      "Làmines blanques que no s’uneixen al peu.",
+      "Peu blanc amb anell fràgil i volva basal en forma de sac."
+    ]
   },
   {
     "id": "tricholoma-terreum",
@@ -328,7 +460,12 @@
     "lookalikes": [
       "tricholoma-pardinum"
     ],
-    "source": "https://bolets.app/bolets/fredolic"
+    "source": "https://bolets.app/bolets/fredolic",
+    "marks": [
+      "Barret gris amb fibres o escames fines i petit bony central.",
+      "Làmines entre blanques i grisenques, relativament separades.",
+      "Peu clar i prim, sense anell."
+    ]
   },
   {
     "id": "tricholoma-portentosum",
@@ -341,7 +478,12 @@
     "season": "Tardor",
     "note": "Barret gris fibril·lós i possibles tons grocs al peu i a les làmines.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/fredolic-gros"
+    "source": "https://bolets.app/bolets/fredolic-gros",
+    "marks": [
+      "Barret gris fosc amb fibres radials; rellisca quan és humit.",
+      "Làmines pàl·lides que poden mostrar matisos grocs.",
+      "Peu blanc amb groc cap a la base, sense anell."
+    ]
   },
   {
     "id": "tricholoma-pardinum",
@@ -353,8 +495,15 @@
     "altitude": "900 – 2000 m",
     "season": "Tardor",
     "note": "Tricòloma gris i robust, amb escates fosques; es pot confondre amb els fredolics.",
-    "lookalikes": [],
-    "source": "https://bolets.app/bolets/fredolic-metzinos"
+    "lookalikes": [
+      "tricholoma-terreum"
+    ],
+    "source": "https://bolets.app/bolets/fredolic-metzinos",
+    "marks": [
+      "Barret gris platejat cobert d’escates fosques contrastades.",
+      "Làmines pàl·lides i escotades prop del peu.",
+      "Peu blanc i robust, més gruixut que molts fredolics."
+    ]
   },
   {
     "id": "galerina-marginata",
@@ -367,7 +516,12 @@
     "season": "Tardor",
     "note": "Petit i bru, creix sobre fusta morta; pot contenir amatoxines mortals.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/galerina-metzinosa"
+    "source": "https://bolets.app/bolets/galerina-metzinosa",
+    "marks": [
+      "Barret petit de color mel que es torna més pàl·lid quan s’asseca.",
+      "Làmines ocres que acaben del color del rovell.",
+      "Peu fibrós amb zona d’anell fugaç; sol sortir sobre fusta."
+    ]
   },
   {
     "id": "pleurotus-ostreatus",
@@ -380,7 +534,12 @@
     "season": "Tardor i hivern",
     "note": "Creix sobre fusta en forma de prestatge; les làmines blanques baixen cap a un peu lateral.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/girgola"
+    "source": "https://bolets.app/bolets/girgola",
+    "marks": [
+      "Barret lateral en forma de petxina, del gris al beix.",
+      "Làmines blanques que baixen fins al punt d’unió.",
+      "Peu molt curt, lateral o absent; creix sobre fusta."
+    ]
   },
   {
     "id": "pleurotus-eryngii",
@@ -393,7 +552,12 @@
     "season": "Tardor",
     "note": "Bolet carnós de zones herboses, associat a les arrels de cards i altres umbel·líferes.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/girgola-de-panical"
+    "source": "https://bolets.app/bolets/girgola-de-panical",
+    "marks": [
+      "Barret marró grisós que s’obre i es deprimeix una mica.",
+      "Làmines clares que baixen llargament pel peu.",
+      "Peu blanc, ferm i gruixut, associat al panical."
+    ]
   },
   {
     "id": "inosperma-erubescens",
@@ -405,8 +569,15 @@
     "altitude": "300 – 1600 m",
     "season": "Primavera",
     "note": "Bolet pàl·lid que s’envermelleix en manipular-lo; conté muscarina.",
-    "lookalikes": [],
-    "source": "https://bolets.app/bolets/inocibe-de-patouillard"
+    "lookalikes": [
+      "calocybe-gambosa"
+    ],
+    "source": "https://bolets.app/bolets/inocibe-de-patouillard",
+    "marks": [
+      "Barret crema i fibrós que s’esquerda i pot enrogir.",
+      "Làmines clares que s’enfosqueixen i poden tacar-se de vermell.",
+      "Peu fibrós sense anell, de vegades vermellós pel frec."
+    ]
   },
   {
     "id": "hygrophorus-latitabundus",
@@ -419,7 +590,12 @@
     "season": "Tardor",
     "note": "Gran i molt viscós en temps humit, amb barret gris bru i làmines clares.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/llenega"
+    "source": "https://bolets.app/bolets/llenega",
+    "marks": [
+      "Barret gris marró, molt viscós quan hi ha humitat.",
+      "Làmines blanques, gruixudes i descendents.",
+      "Peu clar i massís, sovint amb una franja mucosa."
+    ]
   },
   {
     "id": "hygrophorus-eburneus",
@@ -432,7 +608,12 @@
     "season": "Tardor",
     "note": "Higròfor blanc o ivori, molt viscós amb humitat i freqüent prop dels faigs.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/llenega-blanca"
+    "source": "https://bolets.app/bolets/llenega-blanca",
+    "marks": [
+      "Barret blanc ivori i molt lliscós.",
+      "Làmines blanques, gruixudes, ceroses i separades.",
+      "Peu blanc i llefiscós amb la zona superior més seca."
+    ]
   },
   {
     "id": "hydnum-repandum",
@@ -445,7 +626,12 @@
     "season": "Tardor",
     "note": "Sota el barret té petites agulles, no làmines ni porus.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/llengua-de-bou"
+    "source": "https://bolets.app/bolets/llengua-de-bou",
+    "marks": [
+      "Barret irregular de crema a taronja pàl·lid.",
+      "El revers presenta petites agulles trencadisses, no làmines.",
+      "Peu curt, sovint apartat del centre."
+    ]
   },
   {
     "id": "lactifluus-rugatus",
@@ -458,7 +644,12 @@
     "season": "Final d’estiu i tardor",
     "note": "Barret vermellós i arrugat, associat a alzines i sureres; observa’n el làtex.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/lleterola-roja"
+    "source": "https://bolets.app/bolets/lleterola-roja",
+    "marks": [
+      "Barret mat, ataronjat o vermell terrós, amb arrugues fines.",
+      "Làmines clares que desprenen abundant llet blanca en tallar-les.",
+      "Peu ferm del mateix color que el barret o més pàl·lid."
+    ]
   },
   {
     "id": "russula-cyanoxantha",
@@ -471,7 +662,12 @@
     "season": "Estiu i tardor",
     "note": "Barret de color variable i làmines blanques flexibles; compte amb les amanites verdoses.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/llora-aspra"
+    "source": "https://bolets.app/bolets/llora-aspra",
+    "marks": [
+      "Barret de color molt variable, sovint amb zones violetes i verdes.",
+      "Làmines blanques i flexibles, de tacte untuós.",
+      "Peu blanc sense anell ni volva."
+    ]
   },
   {
     "id": "russula-virescens",
@@ -486,7 +682,12 @@
     "lookalikes": [
       "amanita-phalloides"
     ],
-    "source": "https://bolets.app/bolets/llora-verda"
+    "source": "https://bolets.app/bolets/llora-verda",
+    "marks": [
+      "Barret verd grisós amb pell esquerdada com un mosaic.",
+      "Làmines blanques o crema, més fràgils que les de la llora aspra.",
+      "Peu blanc sense anell ni volva; observa la base sencera."
+    ]
   },
   {
     "id": "hygrophorus-marzuolus",
@@ -499,7 +700,12 @@
     "season": "Primavera",
     "note": "Bolet robust de final d’hivern, sovint mig enterrat sota la fullaraca.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/marcot"
+    "source": "https://bolets.app/bolets/marcot",
+    "marks": [
+      "Barret que passa de blanquinós a gris fosc.",
+      "Làmines blanques, gruixudes i espaiades.",
+      "Peu curt i clar, sense anell; apareix a la primavera."
+    ]
   },
   {
     "id": "rubroboletus-satanas",
@@ -511,8 +717,15 @@
     "altitude": "100 – 1200 m",
     "season": "Tardor",
     "note": "Cep gros de porus vermells i peu groc vermellós; la carn sol blavejar.",
-    "lookalikes": [],
-    "source": "https://bolets.app/bolets/matagent"
+    "lookalikes": [
+      "boletus-edulis"
+    ],
+    "source": "https://bolets.app/bolets/matagent",
+    "marks": [
+      "Barret molt pàl·lid que contrasta amb la resta del bolet.",
+      "Porus grocs de joves que passen a taronja o vermell.",
+      "Peu molt inflat, groguenc a dalt i vermell a baix."
+    ]
   },
   {
     "id": "tylopilus-felleus",
@@ -524,8 +737,15 @@
     "altitude": "200 – 1800 m",
     "season": "Tardor",
     "note": "Cep semblant al cep; els porus es tornen rosats i la retícula del peu és fosca.",
-    "lookalikes": [],
-    "source": "https://bolets.app/bolets/mataparent"
+    "lookalikes": [
+      "boletus-edulis"
+    ],
+    "source": "https://bolets.app/bolets/mataparent",
+    "marks": [
+      "Barret marró, sec i de textura una mica vellutada.",
+      "Porus blancs de joves, després rosats.",
+      "Peu amb una xarxa marró fosca molt marcada."
+    ]
   },
   {
     "id": "calocybe-gambosa",
@@ -537,8 +757,15 @@
     "altitude": "100 – 1800 m",
     "season": "Primavera",
     "note": "Bolet carnós i clar de primavera, amb una olor característica de farina fresca.",
-    "lookalikes": [],
-    "source": "https://bolets.app/bolets/moixero"
+    "lookalikes": [
+      "inosperma-erubescens"
+    ],
+    "source": "https://bolets.app/bolets/moixero",
+    "marks": [
+      "Barret gruixut blanc crema, sovint irregular.",
+      "Làmines molt juntes i estretes, també de color clar.",
+      "Peu curt i compacte sense anell; és primaveral."
+    ]
   },
   {
     "id": "suillus-luteus",
@@ -551,7 +778,12 @@
     "season": "Tardor",
     "note": "Cep de pineda amb barret viscós, porus grocs i anell al peu.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/molleric-de-calceta"
+    "source": "https://bolets.app/bolets/molleric-de-calceta",
+    "marks": [
+      "Barret castany molt lliscós amb pell separable.",
+      "Porus grocs que s’enfosqueixen amb l’edat.",
+      "Peu clar amb petits punts i un anell evident."
+    ]
   },
   {
     "id": "suillus-granulatus",
@@ -564,7 +796,12 @@
     "season": "Tardor",
     "note": "Cep de pineda amb porus grocs i peu granulós, sense anell.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/molleric-granellut"
+    "source": "https://bolets.app/bolets/molleric-granellut",
+    "marks": [
+      "Barret marró groguenc, enganxós quan és humit.",
+      "Porus grocs que poden deixar sortir petites gotes en exemplars joves.",
+      "Peu groguenc amb granets a la part alta i sense anell."
+    ]
   },
   {
     "id": "morchella-esculenta",
@@ -577,7 +814,12 @@
     "season": "Primavera",
     "note": "Barret alveolat i cos buit en tallar-lo; cal coure’l bé.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/murgola"
+    "source": "https://bolets.app/bolets/murgola",
+    "marks": [
+      "Part superior amb forats profunds com una bresca, no plecs cerebrals.",
+      "La superfície fèrtil recobreix les cavitats; no té làmines.",
+      "Peu clar i interior buit continu en tall longitudinal."
+    ]
   },
   {
     "id": "amanita-caesarea",
@@ -593,7 +835,12 @@
       "amanita-muscaria",
       "amanita-phalloides"
     ],
-    "source": "https://bolets.app/bolets/ou-de-reig"
+    "source": "https://bolets.app/bolets/ou-de-reig",
+    "marks": [
+      "Barret llis de taronja viu i vora estriada.",
+      "Làmines grogues, separades del peu.",
+      "Peu i anell grocs; volva blanca ben visible a la base."
+    ]
   },
   {
     "id": "lepiota-brunneoincarnata",
@@ -606,7 +853,12 @@
     "season": "Tardor",
     "note": "Lepiota petita amb escates bru vermelloses; pot contenir amatoxines mortals.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/palometa-metzinosa"
+    "source": "https://bolets.app/bolets/palometa-metzinosa",
+    "marks": [
+      "Barret petit amb centre bru i escates fosques sobre fons clar.",
+      "Làmines blanques i lliures del peu.",
+      "Peu fi amb restes d’anell i esquames brunes per sota."
+    ]
   },
   {
     "id": "paxillus-involutus",
@@ -619,7 +871,12 @@
     "season": "Tardor",
     "note": "Barret bru amb la vora enrotllada de jove i làmines decurrents.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/paxille-toxic"
+    "source": "https://bolets.app/bolets/paxille-toxic",
+    "marks": [
+      "Barret bru amb marge molt enrotllat cap a dins.",
+      "Làmines groguenques que baixen pel peu i s’enfosqueixen al tacte.",
+      "Peu curt sense anell que també pren color marró."
+    ]
   },
   {
     "id": "calvatia-gigantea",
@@ -632,7 +889,12 @@
     "season": "Estiu i tardor",
     "note": "Bola blanca i grossa de prat; l’interior passa de blanc a groguenc en madurar.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/pet-de-llop-gegant"
+    "source": "https://bolets.app/bolets/pet-de-llop-gegant",
+    "marks": [
+      "Cos fructífer com una pilota blanca, sense barret separat.",
+      "Les espores es formen a dins; no hi ha làmines externes.",
+      "No té peu clar; comprova l’interior en tallar-la."
+    ]
   },
   {
     "id": "lycoperdon-utriforme",
@@ -645,7 +907,12 @@
     "season": "Primavera i tardor",
     "note": "Pet de llop gros de prat, amb la superfície dividida en plaques.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/pet-de-llop-gros"
+    "source": "https://bolets.app/bolets/pet-de-llop-gros",
+    "marks": [
+      "Cos arrodonit i ample, aplanat una mica per dalt.",
+      "Interior blanc de jove que es transforma en pols d’espores.",
+      "Base ampla i estèril, sense peu diferenciat."
+    ]
   },
   {
     "id": "lycoperdon-perlatum",
@@ -658,7 +925,12 @@
     "season": "De primavera a tardor",
     "note": "Petit i en forma de pera, amb berrugues o espines que es desprenen.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/pet-de-llop-perlat"
+    "source": "https://bolets.app/bolets/pet-de-llop-perlat",
+    "marks": [
+      "Cos blanc amb petites espines còniques que es poden desprendre.",
+      "Espores a l’interior, que surten per un porus superior en madurar.",
+      "Base estreta que sembla un peu curt."
+    ]
   },
   {
     "id": "ramaria-formosa",
@@ -671,7 +943,12 @@
     "season": "Final d’estiu i tardor",
     "note": "Bolet ramificat com un corall, amb branques rosades i puntes grogues de jove.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/peu-de-rata-bord"
+    "source": "https://bolets.app/bolets/peu-de-rata-bord",
+    "marks": [
+      "Mata ramificada com un coral, sense barret.",
+      "Les espores es formen a l’exterior de les branques.",
+      "Base gruixuda i clara; branques rosades o ataronjades."
+    ]
   },
   {
     "id": "ramaria-aurea",
@@ -684,7 +961,12 @@
     "season": "Tardor",
     "note": "Corall groc daurat; per distingir-lo d’altres ramàries pot caldre microscòpia.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/peu-de-rata-daurat"
+    "source": "https://bolets.app/bolets/peu-de-rata-daurat",
+    "marks": [
+      "Bolet ramificat com un coral, de color groc viu.",
+      "La superfície de les branques substitueix làmines i porus.",
+      "Base curta, clara i compacta."
+    ]
   },
   {
     "id": "lepista-nuda",
@@ -697,7 +979,12 @@
     "season": "Tardor",
     "note": "Tons violacis al barret, les làmines i el peu; apareix entre la fullaraca.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/pimpinella-morada"
+    "source": "https://bolets.app/bolets/pimpinella-morada",
+    "marks": [
+      "Barret violeta de jove que pot tornar-se bru amb l’edat.",
+      "Làmines també violades, estretes i bastant juntes.",
+      "Peu lila i fibrós sense cortina."
+    ]
   },
   {
     "id": "lactarius-deliciosus",
@@ -718,6 +1005,11 @@
     "examples": [
       "Exemple de tall: el làtex surt de color taronja o pastanaga; el del rovelló és vermell vinós.",
       "Exemple de confusió: si el làtex és blanc, compara’l amb el pinetell bord i el rovelló de cabra."
+    ],
+    "marks": [
+      "Barret taronja amb anells concèntrics i centre enfonsat.",
+      "Làmines descendents taronges que poden tacar-se de verd.",
+      "Peu ataronjat amb petits clotets; la llet és taronja."
     ]
   },
   {
@@ -730,11 +1022,19 @@
     "altitude": "",
     "season": "Estiu i tardor",
     "note": "Lactari de tons salmó amb làtex blanc que es torna groc sofre.",
-    "lookalikes": [],
+    "lookalikes": [
+      "lactarius-deliciosus",
+      "lactarius-sanguifluus"
+    ],
     "source": "https://bolets.app/bolets/pinetell-bord",
     "examples": [
       "Exemple de tall: el làtex blanc es torna groc sofre.",
       "Exemple d’hàbitat: s’associa sobretot amb roures i alzines, mentre que el pinetell creix amb pins."
+    ],
+    "marks": [
+      "Barret crema o rosat amb cercles suaus.",
+      "Làmines clares; la llet blanca d’una ferida es torna groga.",
+      "Peu pàl·lid que pot buidar-se amb l’edat."
     ]
   },
   {
@@ -748,7 +1048,12 @@
     "season": "Tardor",
     "note": "Barret bru amb restes blanques, anell i base bulbosa.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/pixaca"
+    "source": "https://bolets.app/bolets/pixaca",
+    "marks": [
+      "Barret bru amb petits flocs blancs i vora estriada.",
+      "Làmines blanques que no s’uneixen al peu.",
+      "Peu amb anell i base bulbosa amb ribets de volva."
+    ]
   },
   {
     "id": "cyclocybe-cylindracea",
@@ -761,7 +1066,12 @@
     "season": "Tardor",
     "note": "Forma grups densos sobre fusta d’àlbers i altres arbres de ribera.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/pollancro"
+    "source": "https://bolets.app/bolets/pollancro",
+    "marks": [
+      "Barret inicialment fosc que s’aclareix des de la vora.",
+      "Làmines que passen de clares a brunes.",
+      "Peu fibrós amb anell persistent; surt sobre fusta."
+    ]
   },
   {
     "id": "amanita-muscaria",
@@ -773,8 +1083,15 @@
     "altitude": "400 – 2100 m",
     "season": "Tardor",
     "note": "Barret vermell amb restes blanques; el color pot variar amb la pluja.",
-    "lookalikes": [],
-    "source": "https://bolets.app/bolets/reig-bord"
+    "lookalikes": [
+      "amanita-caesarea"
+    ],
+    "source": "https://bolets.app/bolets/reig-bord",
+    "marks": [
+      "Barret vermell o taronja amb berrugues blanques que la pluja pot esborrar.",
+      "Làmines blanques i lliures.",
+      "Peu blanc amb anell i base bulbosa."
+    ]
   },
   {
     "id": "cantharellus-cibarius",
@@ -794,6 +1111,11 @@
     "examples": [
       "Exemple de cara inferior: presenta plecs, no làmines fines veritables.",
       "Exemple de confusió: el bolet d’olivera pot sortir en grups units sobre fusta o arrels."
+    ],
+    "marks": [
+      "Barret groc amb vora irregular i centre enfonsat.",
+      "Plecs gruixuts i ramificats que baixen pel peu; no són làmines fines.",
+      "Peu groc continu amb el barret."
     ]
   },
   {
@@ -815,6 +1137,11 @@
     "examples": [
       "Exemple de tall: el làtex és vermell vinós; el del pinetell és taronja.",
       "Exemple de confusió: un barret de marge pelut i làtex blanc recorda el rovelló de cabra, no aquest rovelló."
+    ],
+    "marks": [
+      "Barret de taronja apagat a gris vinós, amb zones circulars.",
+      "Làmines descendents; la llet d’una ferida és vermella o vinosa.",
+      "Peu curt que pot mostrar clotets i tonalitats vinoses."
     ]
   },
   {
@@ -827,11 +1154,19 @@
     "altitude": "",
     "season": "Estiu i tardor",
     "note": "Lactari rosat amb la vora llanosa i làtex blanc, associat a bedolls.",
-    "lookalikes": [],
+    "lookalikes": [
+      "lactarius-deliciosus",
+      "lactarius-sanguifluus"
+    ],
     "source": "https://bolets.app/bolets/rovello-de-cabra",
     "examples": [
       "Exemple de barret: el marge és densament pelut i el color tendeix al rosat.",
       "Exemple de tall: el làtex és blanc; el rovelló segrega làtex vermell vinós."
+    ],
+    "marks": [
+      "Barret rosat amb cercles i marge pelut, especialment de jove.",
+      "Làmines clares i llet blanca que no esdevé taronja o vinosa.",
+      "Peu crema o rosat, ferm de jove i buit més tard."
     ]
   },
   {
@@ -845,7 +1180,12 @@
     "season": "Hivern",
     "note": "Tòfona subterrània fosca; interior marbrejat amb vetes clares i aroma intensa.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/tofona-negra"
+    "source": "https://bolets.app/bolets/tofona-negra",
+    "marks": [
+      "Cos negre i berrugós que creix sota terra, sense barret.",
+      "Interior fosc travessat per venes clares; no presenta làmines.",
+      "No té peu ni parts aèries visibles."
+    ]
   },
   {
     "id": "craterellus-cornucopioides",
@@ -858,6 +1198,11 @@
     "season": "Tardor",
     "note": "Embut prim gairebé negre, sense làmines, difícil de distingir entre la fullaraca.",
     "lookalikes": [],
-    "source": "https://bolets.app/bolets/trompeta-de-la-mort"
+    "source": "https://bolets.app/bolets/trompeta-de-la-mort",
+    "marks": [
+      "Cos gris fosc o negre en forma de trompeta profunda.",
+      "Cara externa grisenca, llisa o lleument arrugada.",
+      "Base buida que continua directament l’embut."
+    ]
   }
 ]

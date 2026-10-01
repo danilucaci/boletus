@@ -40,7 +40,7 @@ def main():
     photos_path = ROOT / "data" / "photos.json"
     records = json.loads(photos_path.read_text()) if photos_path.exists() else {}
     for species in SPECIES:
-        target = 4 if species in PRIORITY else 3 if species in FEATURED else 2
+        target = 6 if species in PRIORITY else 5 if species in FEATURED else 4
         if len(records.get(species, [])) >= target:
             continue
         time.sleep(2)
@@ -48,7 +48,7 @@ def main():
         result = get_json({
             "action": "query", "generator": "search", "gsrsearch": f'filetype:bitmap "{term}"',
             "gsrnamespace": "6", "gsrlimit": "20", "prop": "imageinfo",
-            "iiprop": "url|extmetadata|size", "iiurlwidth": "720", "format": "json",
+            "iiprop": "url|extmetadata|size", "iiurlwidth": "640", "format": "json",
         })
         pages = sorted(result.get("query", {}).get("pages", {}).values(), key=lambda p: p.get("index", 999))
         chosen = records.get(species, [])
