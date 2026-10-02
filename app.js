@@ -2,7 +2,7 @@ const $ = (selector) => document.querySelector(selector);
 const esc = (value = '') => String(value).replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fold = (value) => String(value).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 const dateLabel = (value) => new Intl.DateTimeFormat('ca-ES', {dateStyle:'medium'}).format(new Date(value));
-const CACHE_NAME = 'boletus-field-guide-v0.2.0';
+const CACHE_NAME = 'boletus-field-guide-v0.2.1';
 const CORE_FILES = ['./', './index.html', './styles.css', './app.js', './sw.js', './package.json', './manifest.webmanifest', './assets/icon.svg', './assets/icon-192.png', './assets/icon-512.png', './data/species.json', './data/photos.json'];
 let species = [];
 let photos = {};
