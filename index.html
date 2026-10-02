@@ -71,11 +71,16 @@
       </section>
     </main>
 
-    <footer class="site-footer">Boletus <span id="app-version" aria-label="Versió">v0.2.0</span></footer>
+    <footer class="site-footer">Boletus <span id="app-version" aria-label="Versió">v0.2.2</span></footer>
     <nav class="bottom-nav" aria-label="Navegació principal"><a href="#guia" data-nav="guia" class="active"><span aria-hidden="true">✳</span> Guia</a><a href="#troballes" data-nav="troballes"><span aria-hidden="true">◎</span> Troballes</a><a href="#sense-connexio" data-nav="sense-connexio"><span aria-hidden="true">↓</span> Sense connexió</a></nav>
 
     <dialog id="species-dialog" class="species-dialog"><div id="species-detail"></div></dialog>
     <dialog id="finding-dialog" class="finding-dialog"><form id="finding-form"><div class="dialog-top"><div><span class="eyebrow">QUADERN DE CAMP</span><h2 id="finding-dialog-title">Troballa nova</h2></div><button class="icon-button close-dialog" type="button" aria-label="Tanca">×</button></div><label class="form-label">Fotos de la troballa <span>fins a 5</span><input id="finding-photos" type="file" accept="image/*" capture="environment" multiple></label><div id="photo-preview" class="photo-preview"></div><label class="form-label">Espècie amb què la vols comparar<select id="finding-species"><option value="">Sense identificar</option></select></label><div id="candidate-summary" class="candidate-summary" hidden></div><label class="form-label">Notes<textarea id="finding-notes" rows="3" placeholder="On creixia? Com eren el barret, la part inferior i el peu?"></textarea></label><button class="button button-primary form-submit" type="submit">Desa-la en aquest mòbil</button></form></dialog>
+    <dialog id="photo-dialog" class="photo-dialog" aria-label="Fotografia ampliada" aria-describedby="photo-caption">
+      <button type="button" class="icon-button close-dialog" aria-label="Tanca la fotografia" autofocus>×</button>
+      <img id="photo-image" alt="">
+      <p id="photo-caption"></p>
+    </dialog>
     <script type="module" src="./app.js"></script>
   </body>
 </html>

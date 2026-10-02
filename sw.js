@@ -1,4 +1,4 @@
-const CACHE_NAME = 'boletus-field-guide-v0.2.1';
+const CACHE_NAME = 'boletus-field-guide-v0.2.2';
 const CORE = ['./', './index.html', './styles.css', './app.js', './sw.js', './package.json', './manifest.webmanifest', './assets/icon.svg', './assets/icon-192.png', './assets/icon-512.png', './data/species.json', './data/photos.json'];
 
 self.addEventListener('install', (event) => {
